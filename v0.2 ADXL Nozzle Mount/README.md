@@ -18,10 +18,7 @@ accel_per_hz:         100        ; generate more energy [default 75]
 hz_per_sec:           0.5
 ```
  
-Orientation of ADXL. Note this isnt actually attached to the nozzle in this photo and need to 
-heat the hotend to remove the nozzle (and sock). 
-
-Make sure you let it cool before mounting the ADXL board though :-) <br><br>
+Orientation of ADXL. Note this isnt actually attached to the nozzle in this photo and need to heat the hotend to remove the nozzle (and sock).  Make sure you let it cool before mounting the ADXL board though :-) <br><br>
 ![ADXL_Nozzle_Insitu.png](images/ADXL_Nozzle_Insitu.png)
 
 <br><br>
