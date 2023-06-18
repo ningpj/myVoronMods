@@ -2,7 +2,7 @@
 
 ## Description
 
-Modified Kirigami mount from https://github.com/christophmuellerorg/voron_0_kirigami_bed to accept cheap & cheerful clone Wago 221-412 2-way connectors available from Aliexpress.
+Modified Kirigami mount from [Deepfriedhero]https://github.com/christophmuellerorg/voron_0_kirigami_bed to accept cheap & cheerful clone Wago 221-412 2-way connectors available from Aliexpress.
 They are very snug and a tight fit to prevent them from popping out when the lever is opened.
 
 Mounts to Kirigami bed facing down to allow connectors to be opened to remove bed. 
