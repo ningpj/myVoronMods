@@ -12,7 +12,7 @@ This folder also has a little printed box for a 4-way connector bus I use to ins
 <br><br> 
 
 
-![Umbilical_Thermistor_Shroud.png.png](images/Umbilical_Thermistor_Shroud.png.png)
+![Umbilical_Thermistor_Shroud.png](images/Umbilical_Thermistor_Shroud.png)
 
 
 ## Change Log
