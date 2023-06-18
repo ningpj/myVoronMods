@@ -22,7 +22,7 @@ Orientation of ADXL. Note this isnt actually attached to the nozzle in this phot
 ![ADXL_Nozzle_Insitu.png](images/ADXL_Nozzle_Insitu.png)
 
 <br><br>
-SImple enough!
+Simple enough!
 <br><br>
 ![ADXL_Nozzle_Mount_With_Prototype_Board.png](images/ADXL_Nozzle_Mount_With_Prototype_Board.png)
 
