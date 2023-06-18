@@ -2,11 +2,12 @@
 
 ## Description
 
-Backups for Voron 2.4 300mm build with Fysetc Spider 1.1 MCU, ERCF and Easy Brd.
+Modified Kirigami mount from https://github.com/christophmuellerorg/voron_0_kirigami_bed to accept cheap & cheerful clone Wago 221-412 2-way connectors available from Aliexpress.
+They are very snug and a tight fit to prevent them from popping out when the lever is opened.
+
+Mounts to Kirigami bed facing down to allow connectors to be opened to remove bed. 
 
 
 ## Change Log
 
-* Replace 12864 screen with BTT Pi TFT50 v2 & KlipperScreen Happy Hare fork
-* Refine ERCF tip forming settings - Rapido & CW2
-* Tidy up poweroff script, direct command output to klippy.log 
+* Published
