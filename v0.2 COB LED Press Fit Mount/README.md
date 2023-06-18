@@ -7,6 +7,8 @@ I use COB lights for all my printers as they are simple, get the job done, PMW w
 
 @RicharM 1515 mounts are really elegant and are the best press fit channel mounts I have seen.  They use sets of 3, alternating interlocking fingers that snap into the 1515 channels and hold on super tight - all credit for the excellent design to https://www.printables.com/@RichardM. 
 
+They do need to be printed vertically so will need to print these on a bigger printer than the v0.2.
+
 
 ![1515_COB_LED_Mount.png](images/1515_COB_LED_Mount.png)
 
