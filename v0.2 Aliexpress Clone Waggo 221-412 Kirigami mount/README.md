@@ -7,9 +7,7 @@ They are very snug and a tight fit to prevent them from popping out when the lev
 
 Mounts to Kirigami bed facing down to allow connectors to be opened to remove bed. 
 
-![Aliexpress Wago Mount.png](images/Aliexpress Wago Mount.png)
-
-v0.2 Aliexpress Clone Waggo 221-412 Kirigami mount/images/Aliexpress Wago Mount.png
+![Aliexpress_Wago_Mount.png](images/Aliexpress_Wago_Mount.png)
 
 ## Change Log
 
