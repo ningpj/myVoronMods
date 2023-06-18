@@ -9,6 +9,7 @@ Mounts to Kirigami bed facing down to allow connectors to be opened to remove be
 
 ![Aliexpress Wago Mount.png](images/Aliexpress Wago Mount.png)
 
+v0.2 Aliexpress Clone Waggo 221-412 Kirigami mount/images/Aliexpress Wago Mount.png
 
 ## Change Log
 
