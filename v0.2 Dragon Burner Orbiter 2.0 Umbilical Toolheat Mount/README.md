@@ -7,7 +7,8 @@ Umbilical board and cable tie points relocated to suit offset layout and v0.2r1 
 
 Umbilical board mounts using m3 self tapper on one side and through hole m3 to threaded standoff on other side.
 
-![Orbiter_2.0_Umbilical_Dragon_Burner_Mount-front.png](images/Orbiter_2.0_Umbilical_Dragon_Burner_Mount-front.png)
+![Orbiter_2.0_Umbilical_Dragon_Burner_Mount-front.png](images/Orbiter_2.0_Umbilical_Dragon_Burner_Mount-front.png) <br><br>
+![Orbiter_2.0_Umbilical_Dragon_Burner_Mount-back.png](images/Orbiter_2.0_Umbilical_Dragon_Burner_Mount-back.png)
 
 
 ## Change Log
