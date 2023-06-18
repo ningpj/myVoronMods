@@ -8,15 +8,22 @@ The fibre glass is more rigid and will wear much better than a full printed part
 
 Since the molex connector had been soldered to the ADXL for fitting to the back of the x-carriage, I needed to drop the bed to provide a little more clearance for the cable.
 
-Currently using the following settings (accel_per_hz increased to generate a little more energy):```
+Currently using the following settings (accel_per_hz increased to generate a little more energy):
+```
 [resonance_tester]
 accel_chip: adxl345
 probe_points:         60,60,25   ; drop bed lower for cables
 accel_per_hz:         100        ; generate more energy [default 75]
 hz_per_sec:           0.5
 ```
+ 
+Orientation of ADXL. Note this isnt actually attached to the nozzle in this photo and need to 
+heat the hotend to remove the nozzle (and sock). 
 
+Make sure you let it cool before mounting the ADXL board though :-) <br><br>
 ![ADXL_Nozzle_Insitu.png](images/ADXL_Nozzle_Insitu.png)
+
+<br><br>
 ![ADXL_Nozzle_Mount_With_Prototype_Board.png](images/ADXL_Nozzle_Mount_With_Prototype_Board.png)
 
 
