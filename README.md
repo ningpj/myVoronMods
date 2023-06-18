@@ -1,3 +1,3 @@
 # Voron_Mods
 
-My modifications used on my Voron printers. 
+Various modifications created for my Voron printers. 
