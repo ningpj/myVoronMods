@@ -1,4 +1,4 @@
-# v0.2r1 Sturdy PTFE & Umbilical Strain Relief
+# v0.2 Sturdy PTFE & Umbilical Strain Relief
 
  ## Description 
 
