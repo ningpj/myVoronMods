@@ -1,4 +1,4 @@
-# v0.2 Stealth Handle Top Hat, Side Panel Gap Fillers
+# v0.2 Stealth Skirts Rear Panel Keystones
 
 ## Description
 
