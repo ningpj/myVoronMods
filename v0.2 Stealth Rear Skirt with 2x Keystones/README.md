@@ -3,7 +3,7 @@
 ## Description
 
 Remixed and modified rear Stealth Skirts panel for v0.2 with dual keystone ports for RJ45 joiners for RPi Ethernet and Input Shaper ports.
-Note this is for the standard v0.2 Stealth Skirts and "may" need updated when Maveric gets around to raisng the feet and incorporating v0.2r2 
+Note this is for the standard v0.2 Stealth Skirts and "may" need updated when Maveric gets around to raisng the feet and incorporating v0.2r1 
 integrated runout detector. 
 
 ![Rear_Stealth_Skirt_with_2x_Keystones_1.png](images/Rear_Stealth_Skirt_with_2x_Keystones_1.png)
