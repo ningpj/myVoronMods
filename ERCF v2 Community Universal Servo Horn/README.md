@@ -9,9 +9,7 @@ Print as oriented, install 10mm BHSC and semi-captive nut before installing on t
 I find it easier to position and install it by first setting the ERCF servo to the move position (MMU_SERVO pos=move), attaching and positioning the horn on the servo spline so you can move the carriage without catching or rubbing on the top hats.
 Install the servo screw to seat the horn firmly before tightening the m3 SHCS to imprint and clamp the horn to the servo splines. 
 
-![Mellow_Fly-SHT36_v2_Orbiter_2_Mount_Front.png](images/Mellow_Fly-SHT36_v2_Orbiter_2_Mount_Front.png)
-![Mellow_Fly-SHT36_v2_Orbiter_2_Mount_Back.png](images/Mellow_Fly-SHT36_v2_Orbiter_2_Mount_Back.png)
-
+![Servo Horn](https://github.com/user-attachments/assets/76acbb6b-98ce-47ee-bd0c-7260e1fc9b04)
 
 ## Change Log
 
