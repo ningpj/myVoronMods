@@ -1,4 +1,4 @@
-# Universal Servo Horn for ERCF v2 Community MMU.
+# Universal Servo Horn for ERCF v2 Community MMU
 
 ## Description
 
