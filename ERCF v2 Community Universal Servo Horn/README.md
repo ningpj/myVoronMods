@@ -9,8 +9,8 @@ Print as oriented, install 10mm BHSC and semi-captive nut before installing on t
 I find it easier to position and install it by first setting the ERCF servo to the move position (MMU_SERVO pos=move), attaching and positioning the horn on the servo spline so you can move the carriage without catching or rubbing on the top hats.
 Install the servo screw to seat the horn firmly before tightening the m3 SHCS to imprint and clamp the horn to the servo splines. 
 
-![Universal Servo Horn.png](images/Servo Horn 1.png)
-![Universal Servo Horn.png](images/Servo Horn 2.png)
+![Universal Servo Horn.png](images/Servo_Horn_1.png)
+![Universal Servo Horn.png](images/Servo_Horn_2.png)
 
 ## Change Log
 
