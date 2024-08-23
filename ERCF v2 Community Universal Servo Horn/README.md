@@ -14,6 +14,7 @@ If you are unfortunate enough to strip the splines, you should be able to retigh
 
 ![Universal Servo Horn.png](images/Servo_Horn_1.png)
 ![Universal Servo Horn.png](images/Servo_Horn_2.jpeg)
+![Universal Servo Horn Splines.png](images/Servo_Horn_Splines.png)
 
 ## Change Log
 
