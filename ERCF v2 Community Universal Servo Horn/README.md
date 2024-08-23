@@ -10,7 +10,7 @@ I find it easier to position and install it by first setting the ERCF servo to t
 Install the servo screw to seat the horn firmly before tightening the m3 SHCS to imprint and clamp the horn to the servo splines. 
 
 ![Universal Servo Horn.png](images/Servo_Horn_1.png)
-![Universal Servo Horn.png](images/Servo_Horn_2.png)
+![Universal Servo Horn.png](images/Servo_Horn_2.jpeg)
 
 ## Change Log
 
