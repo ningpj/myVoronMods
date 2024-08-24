@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a more robust, universal drop in replacement for the ERCF v2 Community Edition servo horn for Savox, GDW, and SG90 servos commonly used with this mmu. Unlike the existing horn, its printed on its side with layers running in the same direction as the ERCF tophats to reduce friction and allow more preload tension on the filament when engaged. Instead of printed splines which are prone to stripping, it clamps in place, imprinting on the splines to form a strong mechanical connection.
+This is a more robust, universal drop in replacement for the ERCF v2 Community Edition servo horn for Savox, GDW, and SG90 servos commonly used with this MMU. Unlike the existing horn, its printed on its side with layers running in the same direction as the ERCF tophats to reduce friction and allow more preload tension on the filament when engaged. Instead of printed splines which are prone to stripping, it clamps in place, imprinting on the splines to form a strong mechanical connection.
 
 Print as oriented in ABS or ABS equilvent filament. Install the 10mm BHCS and semi-captive M3 hex nut before attaching the horn to the servo. Also inspect the sole where it engages with the tophat for any high spots and if necessary, use a fine file / fine sandpaper to lightly smooth any ridges to make it more uniform. 
 
