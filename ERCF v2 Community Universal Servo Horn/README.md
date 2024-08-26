@@ -8,7 +8,7 @@ Print as oriented in ABS or ABS equilvent filament. Install the 10mm BHCS and se
 
 **Installation:** I find it easier to install by setting the ERCF servo to the ``move`` rather than ``up`` position (``MMU_SERVO pos=move``) before attaching and positioning the horn on the servo until you can move the carriage without it catching or rubbing on tophats. Confirm the sole of the horn is parallel to the servo and once happy, secure and seat the horn inplace using the provided servo screw before tightening the M3 BHCS to clamp and imprint the servo splines until it doesn’t move or wiggle. As Savox servo screws tend to be reasonably short, you may need to press and rock the horn a little to seat it before you can get the screw to engage. The servo screw only needs to be tight enough to seat the horn as all the load is handled by the M3 BHCS and clamping action. While the M3 compression screw needs to be reasonably tight, take care not to overtighten it as you may end up deforming or snapping the horn if you get too carried away.
 
-Once its secure, check and update your Happy Hare servo ``up``, ``move``, and ``down`` positions as these may have changed (``MMU_SERVO ANGLE=<angle>`` followed by ``MMU_SERVO POS=<up|down|move> SAVE=1`` for each position you need to set or update).
+Once its secure, check and set / update your Happy Hare servo ``up``, ``move``, and ``down`` positions as these may have changed (``MMU_SERVO ANGLE=<angle>`` followed by ``MMU_SERVO POS=<up|down|move> SAVE=1`` to save the angle for each position).
 
 If you are unfortunate enough to strip the splines, you should be able to retighten the M3 clamp 1-2 times before needing to reprint and replace the horn. 
 
