@@ -2,7 +2,7 @@
 
 ## Description
 
-*** Note *** this needs to be reworked for use with Voron 2.4 as the CNA umbilical will get caught in left rear Z idler.
+*** Note *** this needs to be reworked for use with Voron 2.4 as the CNA umbilical gets caught in left rear Z idler :-(
 
 Mellow Fly-SHT36 v2.0 Orbiter 2.0 CAN board mount and umbilical strain relief. 90-degree with back turn.
 
