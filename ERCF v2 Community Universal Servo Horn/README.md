@@ -10,7 +10,7 @@ Print as oriented in ABS or ABS equilvent filament. Install the 10mm M3 BHCS and
 
 Once its secure, check and set / update your Happy Hare servo ``up``, ``move``, and ``down`` positions as these may have changed (``MMU_SERVO ANGLE=<angle>`` followed by ``MMU_SERVO POS=<up|down|move> SAVE=1`` to save the angle for each position).
 
-If you are unfortunate enough to strip the splines, you should be able to retighten the M3 clamp 1-2 times before needing to reprint and replace the horn. 
+If you are unfortunate enough to strip the splines(which is hard to do), you should be able to retighten the M3 clamp 1-2 times before needing to reprint and replace the horn. 
 
 Print multiple so you have spares or if you feel the need to reposition it on the servo. 
 
