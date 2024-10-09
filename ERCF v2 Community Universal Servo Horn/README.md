@@ -15,22 +15,22 @@ If you are unfortunate enough to strip the splines (which is hard to do), you sh
 Print multiple so you have spares or if you feel the need to reposition it on the servo. 
 
 
+*GDW & SG90 Servos* <br /> 
 ![Universal Servo Horn.png](images/Servo_Horn_1.png)
-
-*GDW & SG90 Servos*  
-  
+<br />
+<br />
+*ERCF with Savox 0255MG Servo* <br /> 
 ![Universal Servo Horn.png](images/Servo_Horn_2.jpeg)
-
-*ERCF with Savox 0255MG Servo*  
-  
+<br />
+<br />
+*Close up of imprinted splines after clamping* <br />
 ![Universal Servo Horn Splines.png](images/Servo_Horn_Splines.png)
-
-*Close up of imprinted splines after clamping*  
-  
+<br />
+<br />
+*Gap on GDW041MG* <br />
 ![Universal Servo Horn Splines.png](images/Servo_Horn_Mounted_-_GDW041MG.png)
-
-*Gap on GDW041MG*  
-  
+<br />
+<br />
 ## Change Log
 
 
