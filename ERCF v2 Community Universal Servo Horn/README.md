@@ -17,24 +17,20 @@ Print multiple so you have spares or if you feel the need to reposition it on th
 
 ![Universal Servo Horn.png](images/Servo_Horn_1.png)
 
-*GDW & SG90 Servos*
-
-
+*GDW & SG90 Servos*  
+  
 ![Universal Servo Horn.png](images/Servo_Horn_2.jpeg)
 
-*ERCF with Savox 0255MG Servo*
-
-
+*ERCF with Savox 0255MG Servo*  
+  
 ![Universal Servo Horn Splines.png](images/Servo_Horn_Splines.png)
 
-*Close up of imprinted splines after clamping*
-
-
+*Close up of imprinted splines after clamping*  
+  
 ![Universal Servo Horn Splines.png](images/Servo_Horn_Mounted_-_GDW041MG.png)
 
-*Gap on GDW041MG*
-
-
+*Gap on GDW041MG*  
+  
 ## Change Log
 
 
