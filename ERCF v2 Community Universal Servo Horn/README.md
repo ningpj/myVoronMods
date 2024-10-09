@@ -20,6 +20,7 @@ Arm mounted to GDW, SG90 and Savox servos.
 ![Universal Servo Horn.png](images/Servo_Horn_2.jpeg)
 ![Universal Servo Horn Splines.png](images/Servo_Horn_Splines.png)
 ![Universal Servo Horn Splines.png](images/Servo_Horn_Mounted_-_GDW041MG.png)
+*Gap on GDW041MG*
 
 
 ## Change Log
