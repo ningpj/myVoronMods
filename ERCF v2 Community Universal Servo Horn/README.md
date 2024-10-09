@@ -21,7 +21,6 @@ Arm mounted to GDW, SG90 and Savox servos.
 ![Universal Servo Horn Splines.png](images/Servo_Horn_Splines.png)
 ![Universal Servo Horn Splines.png](images/Servo_Horn_Mounted_-_GDW041MG.png)
 
-Spline imprint.
 
 ## Change Log
 
