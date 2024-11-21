@@ -1,4 +1,4 @@
-# Enraged Rabbit Carrot Feeder (ERCF) MMU Guidance
+# Enraged Rabbit Carrot Feeder v1.x (ERCF) MMU Build Guidance
 
 ERCF is an awesome addition to any klipper based 3d printer but can take time to calibrate and tune to get it to operate reliably. As fluedddi said recently in discord, *Having one beats needing one!* :-) Taking extra care during assembly will eliminate much frustration later on :-)
 
