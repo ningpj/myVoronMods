@@ -4,7 +4,7 @@ ERCF is an awesome addition to any klipper based 3d printer but can take time to
 
 ## Preparation
 * **`Manual:`**  Read the ERCF manual and familiarise yourself with overall build process before commencing assembly. 
-<br>The current version can be found here: https://github.com/EtteGit/EnragedRabbitProject/blob/main/Documentation/ERCF_Manual.pdf
+<br>Docs for ERCF v1.x can be found here: https://github.com/EtteGit/EnragedRabbitProject/blob/main/Documentation/ERCF_Manual.pdf
 
 * **`Printed Parts:`**  Like all other Voron printed parts, ERCF parts are designed to accommodate ABS shrinkage. If using other filaments like PLA YMMV, please check tolerances by printing the calibration part and test fitting 8mm rod, m5 nut, magnet and filament (refer Pg 6 of the ERCF Manual).
 <br><br>Parts are printed using standard Voron print settings (Refer Pg 4 of ERCF manual)
