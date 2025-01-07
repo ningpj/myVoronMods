@@ -4,8 +4,8 @@
 
 This is a work in progress and dumping ground for sharing Blobifier modifications to support left and right hand Voron 2.4 (300mm) installation as well as concepts for silicon gantry and fixed nozzle wipes / rest options.
 
-*GDW & SG90 Servos* <br /> 
-![Universal Servo Horn.png](images/v2.4_Gantry_Wipe_Rest_MK_II)
+*MK II Gantry Wipe Rest* <br /> 
+![v2.4_Gantry_Wipe_Rest_MK_II](images/v2.4_Gantry_Wipe_Rest_MK_II.png)
 <br />
 <br />
 *ERCF with Savox 0255MG Servo* <br /> 
