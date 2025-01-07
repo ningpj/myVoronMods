@@ -43,11 +43,11 @@ Additional rest incorporated as wipe option to help detact small blobs / klingon
 
 *Yavoth Sharker Arm*
 
-![vYavoth_Shaker_Arm](images/Yavoth_Shaker_Arm.png)
+![Yavoth_Shaker_Arm](images/Yavoth_Shaker_Arm.png)
 
 *Videos*
 
-![Blobifier_unoptimised_right-hand_operation](images/Blobifier_unoptimised_right-hand_operation.mp4)
+![Blobifier_Unoptimised_Right-hand_Operation.mp4](images/Blobifier_Unoptimised_Right-hand_Operation.mp4)
 
 *Earlier Gantry Nozzle Wipe Rest Iterations* 
 
