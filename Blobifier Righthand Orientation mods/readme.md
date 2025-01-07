@@ -2,7 +2,14 @@
 
 ## Description
 
-This is a work in progress and dumping ground for sharing Blobifier modifications to support left and right hand Voron 2.4 (300mm) installation as well as concepts for silicon gantry and fixed nozzle wipes / rest options.
+This is a work in progress and dumping ground for sharing Blobifier modifications to support left and right hand Voron 2.4 (300mm) installation as well as concepts for silicon gantry and fixed nozzle wipes / rest options.<br />
+The gantry Wipe / Rest is derived from the excellent work @igannakas (Discord) has pionoeered to reduce colour contamination when changing and purging filaments for mmu prints.<br />
+<br />
+*Design Goals*
+- Nozzle Wipe Rest
+  - Point 
+- Blobififier
+  - Point 
 
 *MK II Gantry Wipe Rest* <br /> 
 ![v2.4_Gantry_Wipe_Rest_MK_II](images/v2.4_Gantry_Wipe_Rest_MK_II.png)
