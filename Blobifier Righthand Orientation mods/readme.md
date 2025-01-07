@@ -33,7 +33,7 @@ The gantry Wipe / Rest design is derived from the excellent work @igannakas (Dis
 *MK II Gantry Nozzle Wipe Rest* 
 
 This is the current design iteration for the 2.4 gantry mounted nozzle wipe rest. Increased material around silicon rest after prelonged parking @ 255c for > 30mins softened and slightly deformed the tubing mount.
-Additional rest incorporated as wipe option to detact small blobs / klingons prior to wiping sequence as they would often get caught and/or picked up by the nozzle from A1 wiper fingers.
+Additional rest incorporated as wipe option to help detact small blobs / klingons prior to wiping sequence as they would often get caught and / or picked up subsequently by the nozzle from A1 wiper fingers.
 
 ![v2.4_Gantry_Wipe_Rest_MK_II](images/v2.4_Gantry_Wipe_Rest_MK_II.png)
 ![v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest](images/v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest.png)
