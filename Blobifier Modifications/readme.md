@@ -47,7 +47,7 @@ Additional rest incorporated as wipe option to help detact small blobs / klingon
 
 *Videos*
 
-![Blobifier_unoptimised_right-hand_operation](images/Blobifier_unoptimised_right-hand_operation.png)
+![Blobifier_unoptimised_right-hand_operation](images/Blobifier_unoptimised_right-hand_operation.mp4)
 
 *Earlier Gantry Nozzle Wipe Rest Iterations* 
 
