@@ -9,7 +9,9 @@ The gantry Wipe / Rest design is derived from the excellent work @igannakas (Dis
 
 *Design Goals*
 
-- **Gantry Nozzle Wipe Rest**. Redesign to incorporate:
+- **Gantry Nozzle Wipe Rest**.
+
+  Redesign to incorporate:
   - Dovetail sliders to make it easier to adjust, reduce mounting hardware and improve rigidity
   - Internal mount and arm voids to improve rigidity - 0.1mm 2x voids (printed parts will always flex to an extent)
   - More material to secure m3 heat sets
