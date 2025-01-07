@@ -30,7 +30,8 @@ The gantry Wipe / Rest design is derived from the excellent work @igannakas (Dis
   - Bucket shaker profile for Yavoth hotend
   - Improve depressor pin avoidance logic (base on HH tip cut location and settings if configured)
 
-*MK II Gantry Nozzle Wipe Rest* <br /> 
+*MK II Gantry Nozzle Wipe Rest* 
+
 This is the current design iteration for the 2.4 gantry mounted nozzle wipe rest. Increased material around silicon rest after prelonged parking @ 255c for > 30mins softened and slightly deformed the tubing mount.
 Additional rest incorporated as wipe option to detact small blobs / klingons prior to wiping sequence as they would often get caught and/or picked up by the nozzle from A1 wiper fingers.
 
@@ -38,18 +39,17 @@ Additional rest incorporated as wipe option to detact small blobs / klingons pri
 ![v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest](images/v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest.png)
 ![v2.4_Extended_Static_Wipe_Rest](images/v2.4_Extended_Static_Wipe_Rest.png)
 
-<br />
-<br />
-*ERCF with Savox 0255MG Servo* <br /> 
-![Universal Servo Horn.png](images/Servo_Horn_2.jpeg)
-<br />
-<br />
+*Earlier Gantry Nozzle Wipe Rest Iterations* 
 
-##Current Printer setup
+![v2.4_Gantry_Wipe_Rest_MK_I](images/v2.4_Gantry_Wipe_Rest_MK_I.png)
+![v2.4_Gantry_Wipe_Rest_MK_I_Parked](images/v2.4_Gantry_Wipe_Rest_MK_I_Parked.png)
+
+
+## Current Printer setup
 Voron 2.4 300mm. Klicky PCB dock on the extreme left, z-endstop, blobifier gantry nozzle wipe rest (needs to be move closer to blobifier once design/modifications are finalised), Blobifier on right, EREC (no toolhead cutter or depressor pin), and Yavoth hotend.
 
-##Nozzle Tip Temp
-Measurements of actual external nozzle tip temperature from 300c - 240c (started at 300c and dropping to lower temps).  Measured with multimeter and thermocouple between silicon tube and nozzle. <br />
+## Nozzle Tip Temperature Metrics
+Measurements for external nozzle tip temperature taken from 300c - 240c, started at 300c and dropping to lower temps.  Measured with multimeter and thermocouple between silicon reset and nozzle tip. <br />
 External nozzle tip temperatures consistently 40c or so below actual HE temperature target.
 
 ![Nozzle_Tip_Temperatures](images/Nozzle_Tip_Temperatures.png)
