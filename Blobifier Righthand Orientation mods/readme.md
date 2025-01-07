@@ -6,6 +6,7 @@ This is a work in progress and dumping ground for sharing Blobifier modification
 
 *MK II Gantry Wipe Rest* <br /> 
 ![v2.4_Gantry_Wipe_Rest_MK_II](images/v2.4_Gantry_Wipe_Rest_MK_II.png)
+![v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest](images/v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest.png)
 <br />
 <br />
 *ERCF with Savox 0255MG Servo* <br /> 
