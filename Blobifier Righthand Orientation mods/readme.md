@@ -1,21 +1,23 @@
-# *** Work in progress ***Blobifier Modifications
+# *** Work in progress ***  Blobifier Modifications
 
-##Description
+## Description
 
-This is a work in progress and dumping ground for sharing Blobifier modifications to support left and right hand Voron 2.4 (300mm) installation as well as concepts for silicon gantry and fixed nozzle wipes / rest options.<br />
-The gantry Wipe / Rest is derived from the excellent work @igannakas (Discord) has pioneered to reduce colour contamination when changing and purging filaments for mmu prints.<br />
+This is a work in progress and dumping ground for sharing Blobifier modifications to support left and right hand Voron 2.4 installation and concepts for silicon gantry and fixed nozzle wipes / rest options.<br />
+The gantry Wipe / Rest is derived from the excellent work @igannakas (Discord) pioneered to reduce colour contamination when changing and purging filaments for mmu prints.<br />
 <br />
+
+
 *Design Goals*
-- Nozzle Wipe Rest. Redesign to incorporate
+- **Gantry Nozzle Wipe Rest**. Redesign to incorporate
   - Dovetail sliders to make it easier to adjust, reduce mounting hardware and improve rigidity
-  - Internal voids in mount and arm to improve rigidity - 0.1mm 2x voids (printed parts will always flex to an extent)
-  - More material to secure for m3 heat sets
-  - A1 Mini silicon wiper block. While easier to secure and replace its smaller and has shorter knobs than the original A1 wiper
-  - Experiment with high temp silicon tubing for nozzle rest with filament pin to secure (Dubro aero/heli silicon fuel tubing - 180c-ish temp). 250c silicon syringe and hole plugs from aliexpress to review as alternatives
-  - Additional options to wiper to detach any filament klingons / blobs before positioning for final wipe (e.g. double silicon rest, angled edge and cutaways)  
+  - Internal mount and arm voids to improve rigidity - 0.1mm 2x voids (printed parts will always flex to an extent)
+  - More material to secure m3 heat sets
+  - A1 Mini silicon wiper block. While easier to secure and replace, its smaller and has shorter knobs than the original A1 wiper (zig zag wipe option may help overcome size limitations)
+  - Experiment with high temp silicon tubing as nozzle rest with filament pin to secure (Dubro aero/heli silicon fuel tubing - 180c-ish temp). Evaluate 250c silicon syringe and hole plugs from aliexpress as alternatives
+  - Additional options to detach filament klingons / blobs before final wipe (e.g. double silicon rest, angled edge and cutaways on mount, etc)  
  
-- Blobifier
-  - Ambidextrous macro logic for left and right hand installation (optimise moves based on install orientation e.g. towards and away)
+- **Blobifier**
+  - Ambidextrous macro logic to handle left and right hand installation (optimise moves based on install orientation e.g. towards and away from Blobifier)
   - Incorporate additional maximum print area bounds checking where it makes sense 
   - Implement Zig zag wiper motion to improve wipe efficacy
   - Customisable nozzle shake option to help detach belligerent blobs (default: off)
@@ -25,6 +27,7 @@ The gantry Wipe / Rest is derived from the excellent work @igannakas (Discord) h
   - Support fixed (static) and optional 2.4 gantry mounted nozzle wipe & rest options. Allow use of one or both options
   - Redesign and experiment with fixed wipe and park mount that extends over Blobifier tray to maximise print area
   - Design bucket shaker option for Yavoth hotend
+  - Improve depressor pin avoidance logic (base on HH tip cut location and settings)
 
 *MK II Gantry Wipe Rest* <br /> 
 ![v2.4_Gantry_Wipe_Rest_MK_II](images/v2.4_Gantry_Wipe_Rest_MK_II.png)
