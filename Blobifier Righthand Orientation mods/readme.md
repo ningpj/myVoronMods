@@ -40,6 +40,7 @@ Additional rest incorporated as wipe option to help detact small blobs / klingon
 ![v2.4_Extended_Static_Wipe_Rest](images/v2.4_Extended_Static_Wipe_Rest.png)
 
 *Yavoth Sharker Arm*
+
 ![vYavoth_Shaker_Arm](images/Yavoth_Shaker_Arm.png)
 
 
