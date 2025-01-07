@@ -46,7 +46,8 @@ Additional rest incorporated as wipe option to help detact small blobs / klingon
 ![Yavoth_Shaker_Arm](images/Yavoth_Shaker_Arm.png)
 
 *Videos*
-Load and blob purge process. Sequence doenst have fully optimised moves as yet.  
+Load and blob purge process. Sequence doenst have fully optimised moves as yet.
+
 https://github.com/user-attachments/assets/5ee64c5e-efcd-444d-8302-d71aebe47601
 
 
