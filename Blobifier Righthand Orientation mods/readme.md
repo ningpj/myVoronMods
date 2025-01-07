@@ -39,6 +39,10 @@ Additional rest incorporated as wipe option to help detact small blobs / klingon
 ![v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest](images/v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest.png)
 ![v2.4_Extended_Static_Wipe_Rest](images/v2.4_Extended_Static_Wipe_Rest.png)
 
+*Yavoth Sharker Arm*
+![vYavoth_Shaker_Arm](images/Yavoth_Shaker_Arm.png)
+
+
 *Earlier Gantry Nozzle Wipe Rest Iterations* 
 
 ![v2.4_Gantry_Wipe_Rest_MK_I](images/v2.4_Gantry_Wipe_Rest_MK_I.png)
