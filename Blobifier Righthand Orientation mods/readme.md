@@ -2,14 +2,14 @@
 
 ## Description
 
-This is a work in progress and dumping ground for sharing Blobifier modifications to support left and right hand Voron 2.4 installation and concepts for silicon gantry and fixed nozzle wipes / rest options.
+This is a work in progress and dumping ground for sharing Blobifier modifications to support left and right hand Voron 2.4 installation and concepts for silicon gantry and fixed nozzle wipe / rest options.
 
-The gantry Wipe / Rest is derived from the excellent work @igannakas (Discord) pioneered to reduce colour contamination when changing and purging filaments for mmu prints.<br />
-<br />
+The gantry Wipe / Rest design is derived from the excellent work @igannakas (Discord) pioneered to reduce colour contamination when changing and purging filaments during mmu prints.<br />
 
 
 *Design Goals*
-- **Gantry Nozzle Wipe Rest**. Redesign to incorporate
+
+- **Gantry Nozzle Wipe Rest**. Redesign to incorporate:
   - Dovetail sliders to make it easier to adjust, reduce mounting hardware and improve rigidity
   - Internal mount and arm voids to improve rigidity - 0.1mm 2x voids (printed parts will always flex to an extent)
   - More material to secure m3 heat sets
@@ -27,10 +27,13 @@ The gantry Wipe / Rest is derived from the excellent work @igannakas (Discord) p
   - Zero and restore PA before / after purging 
   - Support fixed (static) and optional 2.4 gantry mounted nozzle wipe & rest options. Allow use of one or both options
   - Redesign and experiment with fixed wipe and park mount that extends over Blobifier tray to maximise print area
-  - Design bucket shaker option for Yavoth hotend
-  - Improve depressor pin avoidance logic (base on HH tip cut location and settings)
+  - Bucket shaker profile for Yavoth hotend
+  - Improve depressor pin avoidance logic (base on HH tip cut location and settings if configured)
 
-*MK II Gantry Wipe Rest* <br /> 
+*MK II Gantry Nozzle Wipe Rest* <br /> 
+This is the current design iteration for the 2.4 gantry mounted nozzle wipe rest. Increased material around silicon rest after prelonged parking @ 255c for > 30mins softened and slightly deformed the tubing mount.
+Additional rest incorporated as wipe option to detact small blobs / klingons prior to wiping sequence as they would often get caught and/or picked up by the nozzle from A1 wiper fingers.
+
 ![v2.4_Gantry_Wipe_Rest_MK_II](images/v2.4_Gantry_Wipe_Rest_MK_II.png)
 ![v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest](images/v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest.png)
 ![v2.4_Extended_Static_Wipe_Rest](images/v2.4_Extended_Static_Wipe_Rest.png)
