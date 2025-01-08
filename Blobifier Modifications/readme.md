@@ -46,13 +46,14 @@ Additional rest incorporated as wipe option to help detact small blobs / klingon
 ![Yavoth_Shaker_Arm](images/Yavoth_Shaker_Arm.png)
 
 
-*Videos*
-Unload, EREC cut, load and blob purge end to end process. Moves havent been fully optimised to follow shortest path as preint head transitions from fixed / static nozzle rest to gantry.
+## Videos
+
+Unload, EREC cut, load and blob purge end to end process. Moves havent been fully optimised to follow shortest path as print head transitions from fixed / static nozzle rest to gantry.
 
 https://github.com/user-attachments/assets/5ee64c5e-efcd-444d-8302-d71aebe47601
 
 
-*Earlier Gantry Nozzle Wipe Rest Iterations* 
+## Earlier Gantry Nozzle Wipe Rest Iterations
 
 ![v2.4_Gantry_Wipe_Rest_MK_I](images/v2.4_Gantry_Wipe_Rest_MK_I.png)
 ![v2.4_Gantry_Wipe_Rest_MK_I_Parked](images/v2.4_Gantry_Wipe_Rest_MK_I_Parked.png)
