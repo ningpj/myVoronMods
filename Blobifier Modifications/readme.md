@@ -7,7 +7,7 @@ This is a work in progress and dumping ground for sharing Blobifier modification
 The gantry Wipe / Rest design is derived and redrafted based on the excellent work @igannakas (Discord) pioneered to reduce colour contamination when changing and purging filaments during mmu prints.<br />
 
 
-*Design Goals*
+## Design Goals
 
 - **Gantry Nozzle Wipe Rest**.
 
@@ -41,7 +41,7 @@ Additional rest incorporated as wipe option to help detact small blobs / klingon
 ![v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest](images/v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest.png)
 ![v2.4_Extended_Static_Wipe_Rest](images/v2.4_Extended_Static_Wipe_Rest.png)
 
-## Yavoth Hotend Shaker Arm*
+## Yavoth Hotend Shaker Arm
 
 ![Yavoth_Shaker_Arm](images/Yavoth_Shaker_Arm.png)
 
