@@ -50,9 +50,11 @@ Additional rest incorporated as wipe option to help detact small blobs / klingon
 
 Unload, EREC cut, load and blob purge end to end process. Moves havent been fully optimised as yet but have been updated to mostly take the shortest path as the print head transitions from fixed / static nozzle wipe and rest to the gantry.
 Video of wriggly wipe option and more optimized moves.
+
 https://github.com/user-attachments/assets/c0a12643-e0e4-486e-8524-1827539a7053
 
-Earlier prototype
+Earlier prototype.
+
 https://github.com/user-attachments/assets/5ee64c5e-efcd-444d-8302-d71aebe47601
 
 
