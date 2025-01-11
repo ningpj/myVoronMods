@@ -30,7 +30,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Support fixed (static) and optional 2.4 gantry mounted nozzle wipe & rest options. Allow use of one or both options
   - Redesign and experiment with fixed wipe and park mount that extends over Blobifier tray to maximise print area
   - Bucket shaker profile for Yavoth hotend
-  - Improve depressor pin avoidance logic (base on HH tip cut location and settings if configured)
+  - Improve depressor pin avoidance logic (base on HH tip cut location and settings if configured), klicky dock and handling unexpected attached probe
 
 ## MK II Gantry Nozzle Wipe Rest
 
