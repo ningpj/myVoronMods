@@ -31,6 +31,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Redesign and experiment with fixed wipe and park mount that extends over Blobifier tray to maximise print area
   - Bucket shaker profile for Yavoth hotend
   - Improve depressor pin avoidance logic (base on HH tip cut location and settings if configured), klicky dock and handling unexpected attached probe
+  - Convert all speeds from mm/min to mm/sec to be consistent with Happy Hare
 
 ## MK II Gantry Nozzle Wipe Rest
 
