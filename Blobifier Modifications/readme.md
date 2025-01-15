@@ -40,7 +40,7 @@ Additional rest incorporated as wipe option to help detact small blobs / klingon
 
 ![v2.4_Gantry_Wipe_Rest_MK_II](images/v2.4_Gantry_Wipe_Rest_MK_II.png)
 ![v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest](images/v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest.png)
-![v2.4_Extended_Static_Wipe_Rest](images/v2.4_Extended_Static_Wipe_Rest.png)
+![v2.4_Extended_Static_Wipe_Rest_Final_Layout](images/v2.4_Extended_Static_Wipe_Rest_Final_Layout.png)
 
 ## Yavoth Hotend Shaker Arm
 
