@@ -46,6 +46,10 @@ Additional rest incorporated as wipe option to help detact small blobs / klingon
 
 ![Yavoth_Shaker_Arm](images/Yavoth_Shaker_Arm.png)
 
+## Voron v2.4 300mm Dimensions
+
+Example dimensions of blobifier for left hand and right hand installs.
+![Voron_v2.4_300mm_Blobifier_Dimensions](images/Voron_v2.4_300mm_Blobifier_Dimensions.png)
 
 ## Videos
 
