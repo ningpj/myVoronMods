@@ -12,26 +12,26 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
 - **Gantry Nozzle Wipe Rest**.
 
   Redesign to incorporate:
-  - Dovetail sliders to make it easier to adjust, reduce mounting hardware and improve rigidity
-  - Internal mount and arm voids to improve rigidity - 0.1mm 2x voids (printed parts will always flex to an extent)
-  - More material to secure m3 heat sets
-  - A1 Mini silicon wiper block. While easier to secure and replace, its smaller and has shorter knobs than the original A1 wiper (zig zag wipe option may help overcome size limitations)
-  - Experiment with high temp silicon tubing as nozzle rest with filament pin to secure (Dubro aero/heli silicon fuel tubing - 180c-ish temp). Evaluate 250c silicon syringe and hole plugs from aliexpress as alternatives. Interestingly "most" silicon HE socks are only rated to 280c
-  - Additional options to detach filament klingons / blobs before final wipe (e.g. double silicon rest, angled edge and cutaways on mount, etc)  
+  - Dovetail sliders to make it easier to adjust, reduce mounting hardware and improve rigidity **(DONE)**
+  - Internal mount and arm voids to improve rigidity - 0.1mm 2x voids (printed parts will always flex to an extent) **(DONE)**
+  - More material to secure m3 heat sets **(DONE)**
+  - A1 Mini silicon wiper block. While easier to secure and replace, its smaller and has shorter knobs than the original A1 wiper (zig zag wipe option may help overcome size limitations) **(PENDING  A1 wipers to arrive)**
+  - Experiment with high temp silicon tubing as nozzle rest with filament pin to secure (Dubro aero/heli silicon fuel tubing - 180c-ish temp). Evaluate 250c silicon syringe and hole plugs from aliexpress as alternatives. Interestingly "most" silicon HE socks are only rated to 280c **(PENDING - Waiting for alternates to arrive)**
+  - Additional options to detach filament klingons / blobs before final wipe (e.g. double silicon rest, angled edge and cutaways on mount, etc)  **(DONE)**
  
 - **Blobifier**
-  - Ambidextrous macro logic to handle left and right hand installation (optimise moves based on install orientation e.g. towards and away from Blobifier)
+  - Ambidextrous macro logic to handle left and right hand installation (optimise moves based on install orientation e.g. towards and away from Blobifier)  **(IN PROGRESS)**
   - Incorporate additional maximum print area bounds checking where it makes sense 
-  - Implement Zig zag wiper motion to improve wipe efficacy
-  - Customisable nozzle shake option to help detach belligerent blobs (default: off)
-  - Customizable tray iterations to help detach belligerent blobs (default: 1)
-  - Move servo dwell setting to main Blobifier configuration block
-  - Zero and restore PA before / after purging 
-  - Support fixed (static) and optional 2.4 gantry mounted nozzle wipe & rest options. Allow use of one or both options
-  - Redesign and experiment with fixed wipe and park mount that extends over Blobifier tray to maximise print area
-  - Bucket shaker profile for Yavoth hotend
-  - Improve depressor pin avoidance logic (base on HH tip cut location and settings if configured), klicky dock and handling unexpected attached probe
-  - Convert all speeds from mm/min to mm/sec to be consistent with Happy Hare
+  - Implement Zig zag wiper motion to improve wipe efficacy  **(DONE)**
+  - Customisable nozzle shake option to help detach belligerent blobs (default: off)  **(DONE)**
+  - Customizable tray iterations to help detach belligerent blobs (default: 1)  **(DONE)**
+  - Move servo dwell setting to main Blobifier configuration block  **(DONE)**
+  - Zero and restore PA before / after purging  **(DONE)**
+  - Support fixed (static) and optional 2.4 gantry mounted nozzle wipe & rest options. Allow use of one or both options  **(DONE)**
+  - Redesign and experiment with fixed wipe and park mount that extends over Blobifier tray to maximise print area  **(IN PROGRESS)**
+  - Bucket shaker profile for Yavoth hotend  **(DONE)**
+  - Improve depressor pin avoidance logic (base on HH tip cut location and settings if configured), klicky dock and handling unexpected attached probe **(IN PROGRESS)**
+  - Convert all speeds from mm/min to mm/sec to be consistent with Happy Hare  **(DONE)**
 
 ## MK II Gantry Nozzle Wipe Rest
 
