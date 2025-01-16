@@ -38,6 +38,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
 This is the current design iteration for the 2.4 gantry mounted nozzle wipe rest. Increased material around silicon rest after prelonged parking @ 255c for > 30mins softened and slightly deformed the tubing mount.
 Additional rest incorporated as wipe option to help detact small blobs / klingons prior to wiping sequence as they would often get caught and / or picked up subsequently by the nozzle from A1 wiper fingers.
 
+![250c_silicon_rest_A1_wiper](https://github.com/user-attachments/assets/c2528bf4-50ae-4b6f-8aa7-e38035895a0c)
 ![v2.4_Gantry_Wipe_Rest_MK_II](images/v2.4_Gantry_Wipe_Rest_MK_II.png)
 ![v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest](images/v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest.png)
 ![v2.4_Extended_Static_Wipe_Rest_Final_Layout](images/v2.4_Extended_Static_Wipe_Rest_Final_Layout.png)
@@ -58,11 +59,10 @@ Video of wriggly wipe option and more optimized moves.
 
 Testing 250c silicon rest (Ali express) and larger A1 wiper on Gantry
 
-https://github.com/user-attachments/assets/9e47ce1b-055d-43a0-b5c6-7becbc01a84b
+
+https://github.com/user-attachments/assets/c10b051a-3b67-4b0f-b9cd-7aeb3ea870b0
 
 
-
-https://github.com/user-attachments/assets/c0a12643-e0e4-486e-8524-1827539a7053
 
 Earlier macro hack / prototype.
 
