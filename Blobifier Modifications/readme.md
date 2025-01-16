@@ -28,15 +28,14 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Move servo dwell setting to main Blobifier configuration block  **(DONE)**
   - Zero and restore PA before / after purging  **(DONE)**
   - Support fixed (static) and optional 2.4 gantry mounted nozzle wipe & rest options. Allow use of one or both options  **(DONE)**
-  - Redesign and experiment with fixed wipe and park mount that extends over Blobifier tray to maximise print area  **(IN PROGRESS)**
+  - Redesign and experiment with fixed wipe and park mount that extends over Blobifier tray to maximise print area and park position +/- 1.5mm x/y randomiser to prolong rest longevity (moggieuk suggestion)  **(IN PROGRESS)**
   - Bucket shaker profile for Yavoth hotend  **(DONE)**
   - Improve depressor pin avoidance logic (base on HH tip cut location and settings if configured), klicky dock and handling unexpected attached probe **(IN PROGRESS)**
   - Convert all speeds from mm/min to mm/sec to be consistent with Happy Hare  **(DONE)**
 
 ## MK II Gantry Nozzle Wipe Rest
 
-This is the current design iteration for the 2.4 gantry mounted nozzle wipe rest. Increased material around silicon rest after prelonged parking @ 255c for > 30mins softened and slightly deformed the tubing mount.
-Additional rest incorporated as wipe option to help detact small blobs / klingons prior to wiping sequence as they would often get caught and / or picked up subsequently by the nozzle from A1 wiper fingers.
+This is the current design iteration for the 2.4 gantry mounted nozzle wipe rest. Testing silicon 250c button style rest with 3mm ID PTFE tube sleeve to make it easy to install and remove, insulate it further from surounding ABS and to make it height adjustable. Zeroed out additional silicon tube rest as it doesnt seem as necessary after switching to the much beefier and larger Bambu A1 Nozzle Wipe (the A1 Mini is considerable smaller and has tighter block pattern causing filment debris to get caught..
 
 ![250c_silicon_rest_A1_wiper](https://github.com/user-attachments/assets/c2528bf4-50ae-4b6f-8aa7-e38035895a0c)
 ![250c_silicon_rest_A1_wiper_Nozzle_Front](https://github.com/user-attachments/assets/04890cd5-dc0d-408a-bb15-0fdd417d6a0a)
