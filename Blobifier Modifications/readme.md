@@ -15,7 +15,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Dovetail sliders to make it easier to adjust, reduce mounting hardware and improve rigidity **(DONE)**
   - Internal mount and arm voids to improve rigidity - 0.1mm 2x voids (printed parts will always flex to an extent) **(DONE)**
   - More material to secure m3 heat sets **(DONE)**
-  - A1 Mini silicon wiper block. While easier to secure and replace, its smaller and has shorter knobs than the original A1 wiper (zig zag wipe option may help overcome size limitations) **(IN PROGESS & testing A1 wipers)**
+  - A1 Mini silicon wiper block. While easier to secure and replace, its smaller and has shorter knobs than the original A1 wiper (zig zag wipe option may help overcome size limitations) **(IN PROGESS & testing full size A1 wipers)**
   - Experiment with high temp silicon tubing as nozzle rest with filament pin to secure (Dubro aero/heli silicon fuel tubing - 180c-ish temp). Evaluate 250c silicon syringe and hole plugs from aliexpress as alternatives. Interestingly "most" silicon HE socks are only rated to 280c **(IN PROGRESS Testing Silicon button with 4mm ID PTFE tube mount)**
   - Additional options to detach filament klingons / blobs before final wipe (e.g. double silicon rest, angled edge and cutaways on mount, etc)  **(DONE)**
  
