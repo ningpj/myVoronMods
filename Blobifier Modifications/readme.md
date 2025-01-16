@@ -66,8 +66,8 @@ Example dimensions of blobifier for left hand and right hand installs.
 
 ## Videos
 
-Unload, EREC cut, load and blob purge end to end process. Moves havent been fully optimised as yet but have been updated to mostly take the shortest path as the print head transitions from fixed / static nozzle wipe and rest to the gantry.
-Video of wriggly wipe option and more optimized moves.
+Unload, EREC cut, load and blob purge end to end process. Optimized moves to take the shortest path as the print head transitions from fixed / static nozzle wipe rest to the gantry.
+Zigzag wipe & straight patterns (using same wipe speed and accels for both - might reduce zigzag speed to 60% of normal rather than creating yet-another-parameter).
 
 Testing 250c silicon rest (Ali express) and larger A1 wiper on Gantry
 
