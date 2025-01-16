@@ -28,7 +28,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Move servo dwell setting to main Blobifier configuration block  **(DONE)**
   - Zero and restore PA before / after purging  **(DONE)**
   - Support fixed (static) and optional 2.4 gantry mounted nozzle wipe & rest options. Allow use of one or both options  **(DONE)**
-  - Redesign and experiment with fixed wipe and park mount that extends over Blobifier tray to maximise print area and park position +/- 1.5mm x/y randomiser to prolong rest longevity (moggieuk suggestion)  **(IN PROGRESS)**
+  - Redesign and experiment with fixed wipe and park mount that extends over Blobifier tray to maximise print area & park position +/- 1.5mm x/y randomiser to prolong rest longevity (moggieuk suggestion)  **(IN PROGRESS)**
   - Bucket shaker profile for Yavoth hotend  **(DONE)**
   - Improve depressor pin avoidance logic (base on HH tip cut location and settings if configured), klicky dock and handling unexpected attached probe **(IN PROGRESS)**
   - Convert all speeds from mm/min to mm/sec to be consistent with Happy Hare  **(DONE)**
