@@ -33,13 +33,19 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Improve depressor pin avoidance logic (base on HH tip cut location and settings if configured), klicky dock and handling unexpected attached probe **(IN PROGRESS)**
   - Convert all speeds from mm/min to mm/sec to be consistent with Happy Hare  **(DONE)**
 
+- Silicon 205c rated nozzle rest options 
+  - 3.5mm button style plug : https://www.aliexpress.com/item/1005006396026960.html?spm=a2g0o.order_list.order_list_main.89.320f1802CbTUYu
+  - Syringe cap : https://www.aliexpress.com/item/1005006915852959.html?spm=a2g0o.order_list.order_list_main.83.320f1802CbTUYu
+
 ## MK II Gantry Nozzle Wipe Rest
 
-This is the current design iteration for the 2.4 gantry mounted nozzle wipe rest. Testing silicon 250c button style rest with 3mm ID PTFE tube sleeve to make it easy to install and remove, insulate it further from surounding ABS and to make it height adjustable. Zeroed out additional silicon tube rest as it doesnt seem as necessary after switching to the much beefier and larger Bambu A1 Nozzle Wipe (the A1 Mini is considerable smaller and has tighter block pattern causing filment debris to get caught..
+Current design iteration for the 2.4 gantry mounted nozzle wipe rest. Testing silicon 250c button style rest with 3mm ID PTFE tube sleeve to make it easy to install and remove, insulate from surounding ABS and to make it height adjustable. Zeroed out additional silicon tube rest as it doesnt seem as necessary after switching to the beefier and larger Bambu A1 Nozzle Wipe (the A1 Mini is considerably smaller and has tighter block pattern causing filment debris to get caught).
 
 ![250c_silicon_rest_A1_wiper](https://github.com/user-attachments/assets/c2528bf4-50ae-4b6f-8aa7-e38035895a0c)
 ![250c_silicon_rest_A1_wiper_Nozzle_Front](https://github.com/user-attachments/assets/04890cd5-dc0d-408a-bb15-0fdd417d6a0a)
 ![Silicon Rest PTFE Adjustable mount concept](https://github.com/user-attachments/assets/0228aef8-b8e9-4e1e-862c-06a4a081b1da)
+
+Orginal silicon tube base nozzle rest
 ![v2.4_Gantry_Wipe_Rest_MK_II](images/v2.4_Gantry_Wipe_Rest_MK_II.png)
 ![v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest](images/v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest.png)
 ![v2.4_Extended_Static_Wipe_Rest_Final_Layout](images/v2.4_Extended_Static_Wipe_Rest_Final_Layout.png)
