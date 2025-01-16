@@ -2,9 +2,8 @@
 
 ## Description
 
-This is a work in progress and dumping ground for sharing Blobifier modifications to support left and right hand Voron 2.4 installation and concepts for silicon gantry and fixed nozzle wipe / rest options.
-
-The gantry Wipe / Rest redesign is derived and based on the excellent work @igannakas (Discord) has pioneered to reduce colour contamination when changing / purging filaments during mmu prints.<br />
+This is a work in progress and dumping ground for sharing Blobifier modifications to support left and right hand Voron v2.4 installation and prototypes of silicon gantry and fixed nozzle wipe / rest options. 
+The gantry Wipe / Rest redesign is derived and based on the excellent work @igannakas (Discord) has pioneered to eliminate colour contamination when changing / purging filaments during mmu prints.<br />
 
 
 ## Design Goals
@@ -13,12 +12,12 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
 
   Redesign to incorporate:
   - Dovetail sliders to make it easier to adjust, reduce mounting hardware and improve rigidity **(DONE)**
-  - Internal mount and arm voids to improve rigidity - 0.1mm 2x voids (printed parts will always flex to an extent) **(DONE)**
+  - Internal mount and arm voids to improve rigidity - 0.1mm 2x voids (flex is inherent in printed designs like this and need it as rigid as possible to cap and prevent nozzle ooze) **(DONE)**
   - More material to secure m3 heat sets **(DONE)**
-  - A1 Mini silicon wiper block. While easier to secure and replace, its smaller and has shorter knobs than the original A1 wiper (zig zag wipe option may help overcome size limitations) **(IN PROGESS & testing full size A1 wipers)**
+  - A1 Mini silicon wiper block. While easier to secure and replace, its smaller and has shorter knobs than the original Bambu A1 wiper (zig zag pattern may overcome size limitation) **(DONE - Discarded in preference to chunker, full size Bambu A1 wiper)**
   - Experiment with high temp silicon tubing as nozzle rest with filament pin to secure (Dubro aero/heli silicon fuel tubing - 180c-ish temp) **(DONE - Discarded due to ABS softening after prolonged exposure to 255c+ nozzle temp)** 
-  - Evaluate 250c silicon syringe and hole plugs from aliexpress as alternatives. Interestingly "most" silicon HE socks are only rated to 280c **(IN PROGRESS Testing Silicon button with 4mm ID PTFE tube mount)**
-  - Additional options to detach filament klingons / blobs before final wipe (e.g. double silicon rest, angled edge and cutaways on mount, etc)  **(DONE)**
+  - Evaluate 250c silicon syringe and hole plugs from aliexpress as alternatives. Interestingly "most" silicon HE socks are only rated to 280c **(IN PROGRESS Testing Silicon button with 3/4mm ID/OD PTFE tube sleeve)**
+  - Additional options to detach filament klingons / blobs before final wipe (e.g. double silicon rest, angled edge and cutaways on mount, etc)  **(DONE - Discarded in preference to chunker, full size Bambu A1 wiper)**
  
 - **Blobifier Macros**
   - Ambidextrous move logic to handle left and right hand installation (optimise moves based on install orientation e.g. towards and away from Blobifier)  **(IN PROGRESS)**
@@ -33,8 +32,10 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Bucket shaker profile for Yavoth hotend  **(DONE)**
   - Improve depressor pin avoidance logic (base on HH tip cut location and settings if configured), klicky dock and handling unexpected attached probe **(IN PROGRESS)**
   - Convert all speeds from mm/min to mm/sec to be consistent with Happy Hare  **(DONE)**
+  - Final QA test RH operation end to end
+  - Final QA test LH operation end to end 
 
-- Silicon 250c rated nozzle rest options 
+- Silicon nozzle rest options (250c rated) 
   - 3.5mm button plug : https://www.aliexpress.com/item/1005006396026960.html?spm=a2g0o.order_list.order_list_main.89.320f1802CbTUYu
   - Syringe cap : https://www.aliexpress.com/item/1005006915852959.html?spm=a2g0o.order_list.order_list_main.83.320f1802CbTUYu
 
