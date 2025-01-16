@@ -41,7 +41,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
 
 ## MK II Gantry Nozzle Wipe Rest
 
-Current design iteration for the 2.4 gantry mounted nozzle wipe rest. Testing silicon 250c button rest with 3mm/4mm ID/OD PTFE tube sleeve to make it easy to install and remove, insulate from surounding ABS and to make it height adjustable (min 9mm PTFE). Zeroed out additional silicon tube rest as it doesnt seem as necessary after switching to the beefier and larger Bambu A1 Nozzle Wipe (the A1 Mini is considerably smaller and has tighter block pattern causing filment debris to get caught).
+Current design iteration for the 2.4 gantry mounted nozzle wipe rest. Testing silicon 250c button rest with 3mm/4mm ID/OD PTFE tube sleeve to make it easy to install and remove, insulate from surounding ABS and to make it height adjustable (min 9mm PTFE). Zeroed out additional silicon tube rest as it doesnt seem as necessary after switching to the beefier and larger Bambu A1 Nozzle Wipe (the A1 Mini is considerably smaller and has tighter block pattern and more likely to trap filament debris).
 
 ![250c_silicon_rest_A1_wiper](https://github.com/user-attachments/assets/c2528bf4-50ae-4b6f-8aa7-e38035895a0c)
 ![250c_silicon_rest_A1_wiper_Nozzle_Front](https://github.com/user-attachments/assets/04890cd5-dc0d-408a-bb15-0fdd417d6a0a)
