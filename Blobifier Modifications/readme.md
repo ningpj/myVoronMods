@@ -15,8 +15,8 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Dovetail sliders to make it easier to adjust, reduce mounting hardware and improve rigidity **(DONE)**
   - Internal mount and arm voids to improve rigidity - 0.1mm 2x voids (printed parts will always flex to an extent) **(DONE)**
   - More material to secure m3 heat sets **(DONE)**
-  - A1 Mini silicon wiper block. While easier to secure and replace, its smaller and has shorter knobs than the original A1 wiper (zig zag wipe option may help overcome size limitations) **(PENDING  A1 wipers to arrive)**
-  - Experiment with high temp silicon tubing as nozzle rest with filament pin to secure (Dubro aero/heli silicon fuel tubing - 180c-ish temp). Evaluate 250c silicon syringe and hole plugs from aliexpress as alternatives. Interestingly "most" silicon HE socks are only rated to 280c **(PENDING - Waiting for alternates to arrive)**
+  - A1 Mini silicon wiper block. While easier to secure and replace, its smaller and has shorter knobs than the original A1 wiper (zig zag wipe option may help overcome size limitations) **(IN PROGESS & testing A1 wipers)**
+  - Experiment with high temp silicon tubing as nozzle rest with filament pin to secure (Dubro aero/heli silicon fuel tubing - 180c-ish temp). Evaluate 250c silicon syringe and hole plugs from aliexpress as alternatives. Interestingly "most" silicon HE socks are only rated to 280c **(IN PROGRESS Testing Silicon button with 4mm ID PTFE tube mount)**
   - Additional options to detach filament klingons / blobs before final wipe (e.g. double silicon rest, angled edge and cutaways on mount, etc)  **(DONE)**
  
 - **Blobifier**
@@ -40,6 +40,7 @@ Additional rest incorporated as wipe option to help detact small blobs / klingon
 
 ![250c_silicon_rest_A1_wiper](https://github.com/user-attachments/assets/c2528bf4-50ae-4b6f-8aa7-e38035895a0c)
 ![250c_silicon_rest_A1_wiper_Nozzle_Front](https://github.com/user-attachments/assets/04890cd5-dc0d-408a-bb15-0fdd417d6a0a)
+![Silicon Rest PTFE Adjustable Height Mount Concept](https://github.com/user-attachments/assets/e90d9e15-ded3-430d-ae77-8e2da086cdf6)
 ![v2.4_Gantry_Wipe_Rest_MK_II](images/v2.4_Gantry_Wipe_Rest_MK_II.png)
 ![v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest](images/v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest.png)
 ![v2.4_Extended_Static_Wipe_Rest_Final_Layout](images/v2.4_Extended_Static_Wipe_Rest_Final_Layout.png)
