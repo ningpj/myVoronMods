@@ -46,7 +46,7 @@ Current design iteration for the 2.4 gantry mounted nozzle wipe rest. Testing si
 
 ![250c_silicon_rest_A1_wiper](https://github.com/user-attachments/assets/c2528bf4-50ae-4b6f-8aa7-e38035895a0c)
 ![250c_silicon_rest_A1_wiper_Nozzle_Front](https://github.com/user-attachments/assets/04890cd5-dc0d-408a-bb15-0fdd417d6a0a)
-![Silicon Rest PTFE Adjustable mount concept](https://github.com/user-attachments/assets/0228aef8-b8e9-4e1e-862c-06a4a081b1da)
+![Adjustable PTFE silicon rest sleeve](https://github.com/user-attachments/assets/846e4019-8405-4fc8-b69d-15c47b051b73)
 
 
 **Older silicon tube based rests**
