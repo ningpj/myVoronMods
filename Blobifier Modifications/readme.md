@@ -61,8 +61,9 @@ Current design iteration for the 2.4 gantry mounted nozzle wipe rest. Testing si
 
 ## Voron v2.4 300mm Dimensions
 
-Example dimensions of blobifier for left hand and right hand installs.
-![Voron_v2.4_300mm_Blobifier_Dimensions](images/Voron_v2.4_300mm_Blobifier_Dimensions.png)
+Example dimensions of blobifier with depressor pins for left hand and right hand installs.
+![Voron_v2 4_300mm_Blobifier_Dimensions](https://github.com/user-attachments/assets/e85cabfd-395c-45b3-a0d2-2c027607976d)
+
 
 ## Videos
 
