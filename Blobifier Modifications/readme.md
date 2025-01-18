@@ -32,7 +32,9 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Bucket shaker profile for Yavoth hotend  **(DONE)**
   - Improve depressor pin avoidance logic (base on HH tip cut location and settings if configured), klicky dock and handling unexpected attached probe **(IN PROGRESS)**
   - Convert all speeds from mm/min to mm/sec to be consistent with Happy Hare  **(DONE)**
-  - Consider park position randomiser (+/- 1.5mm) to prolong rest longevity (moggieuk suggestion) 
+  - Consider park position randomiser (+/- 1.5mm) to prolong rest longevity (moggieuk suggestion)
+  - Always extend tray when moving down to tray for homing and purging **(DONE)**
+  - Retract tray and extend after bucket shake in case blobs are accumulating and getting caught underneath **(DONE)** 
   - Final QA test RH operation end to end
   - Final QA test LH operation end to end 
 
