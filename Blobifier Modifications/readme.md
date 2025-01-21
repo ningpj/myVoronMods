@@ -1,4 +1,4 @@
-# *** Work in progress ***  Blobifier Modifications
+![image](https://github.com/user-attachments/assets/1155df96-b16c-4ac9-8258-2eb845e0e77a)# *** Work in progress ***  Blobifier Modifications
 
 ## Description
 
@@ -34,7 +34,8 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Convert all speeds from mm/min to mm/sec to be consistent with Happy Hare  **(DONE)**
   - Consider park position randomiser (+/- 1.5mm) to prolong rest longevity (moggieuk suggestion)
   - Always extend the tray when descending to home or purge **(DONE)**
-  - Retract tray and extend after bucket shake in case blobs are accumulating and getting caught underneath **(DONE)** 
+  - Retract tray and extend after bucket shake in case blobs are accumulating and getting caught underneath **(DONE)**
+  - Switch accels to use max_accels as defined or user provided whichever is the lower
   - Final QA test RH operation end to end
   - Final QA test LH operation end to end 
 
