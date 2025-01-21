@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1155df96-b16c-4ac9-8258-2eb845e0e77a)# *** Work in progress ***  Blobifier Modifications
+# *** Work in progress ***  Blobifier Modifications
 
 ## Description
 
