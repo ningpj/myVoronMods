@@ -35,7 +35,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Consider park position randomiser (+/- 1.5mm) to prolong rest longevity (moggieuk suggestion)
   - Always extend the tray when descending to home or purge **(DONE)**
   - Retract tray and extend after bucket shake in case blobs are accumulating and getting caught underneath **(DONE)**
-  - Switch accels to use max_accels as defined or user provided whichever is the lower
+  - Switch accels to use max_accels as defined or user provided whichever is the lower as default behavour is to raise the limit above what most printers can accomodate without skipping
   - Final QA test RH operation end to end
   - Final QA test LH operation end to end 
 
