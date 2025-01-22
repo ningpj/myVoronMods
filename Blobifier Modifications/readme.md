@@ -16,7 +16,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - More material to secure m3 heat sets **(DONE)**
   - A1 Mini silicon wiper block. While easier to secure and replace, its smaller and has shorter, more closely spaced knobs than the original Bambu A1 wiper (zig zag pattern may overcome size limitation) **(DONE - Discarded in preference to chunker, full size Bambu A1 wiper)**
   - Experiment with high temp silicon tubing as nozzle rest with filament pin to secure (Dubro aero/heli silicon fuel tubing - 180c-ish temp) **(DONE - Discarded due to ABS softening after prolonged exposure to 255c+ nozzle temp)** 
-  - Evaluate 250c silicon syringe and hole plugs from aliexpress as alternatives. Interestingly "most" silicon HE socks are only rated to 280c **(IN PROGRESS Testing Silicon button with 3/4mm ID/OD PTFE tube sleeve)**
+  - Evaluate 250c silicon syringe and hole plugs from aliexpress as alternatives. Interestingly "most" silicon HE socks are only rated to 280c **(IN PROGRESS Testing Silicon button with 3mm/4mm ID/OD PTFE tube sleeve)**
   - Additional options to detach filament klingons / blobs before final wipe (e.g. double silicon rest, angled edge and cutaways on mount, etc)  **(DONE - Discarded in preference to chunker, full size Bambu A1 wiper)**
   - Redesign and experiment with static wipe rest that extends over Blobifier tray to maximise print area. **(IN PROGRESS)** 
  
