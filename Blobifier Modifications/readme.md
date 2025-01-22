@@ -21,7 +21,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Redesign and experiment with static wipe rest that extends over Blobifier tray to maximise print area. **(IN PROGRESS)** 
  
 - **Blobifier**
-  - Ambidextrous move logic to handle left and right hand installation (optimise moves based on install orientation e.g. towards and away from Blobifier)  **(IN PROGRESS)**
+  - Ambidextrous move logic to handle left and right hand installation (optimise moves based on install orientation e.g. towards and away from Blobifier)  **(DONE)**
   - Incorporate additional maximum print area bounds checking where it makes sense 
   - Implement Zig zag wiper motion to improve wipe efficacy  **(DONE)**
   - Customisable nozzle shake option to help detach belligerent blobs (default: off)  **(DONE)**
@@ -35,7 +35,8 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Consider park position randomiser (+/- 1.5mm) to prolong rest longevity (moggieuk suggestion)
   - Always extend the tray when descending to home or purge **(DONE)**
   - Retract tray and extend after bucket shake in case blobs are accumulating and getting caught underneath **(DONE)**
-  - Switch accels to use max_accels as defined or user provided whichever is the lower as default is to set it well above what most printers can comfortably accomodate without skipping e.g. use shake_accels,printer.configfile.config.printer.max_accel to cap it
+  - Switch accels to use max_accels as defined or user provided whichever is the lower as default is to set it well above what most printers can comfortably accomodate without skipping e.g. use shake_accels,printer.configfile.config.printer.max_accel to cap it **(DONE)**
+  - Additional sanity checks of user defined parameters - reset to sane values to prevent missadventure and issues if possible 
 
   - Final QA test RH operation end to end
   - Final QA test LH operation end to end 
