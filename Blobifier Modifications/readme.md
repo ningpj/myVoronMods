@@ -36,7 +36,8 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Always extend the tray when descending to home or purge **(DONE)**
   - Retract tray and extend after bucket shake in case blobs are accumulating and getting caught underneath **(DONE)**
   - Switch accels to use max_accels as defined or user provided whichever is the lower as default is to set it well above what most printers can comfortably accomodate without skipping e.g. use shake_accels,printer.configfile.config.printer.max_accel to cap it **(DONE)**
-  - Additional sanity checks of user defined parameters - reset to sane values to prevent missadventure and issues if possible 
+  - Additional sanity checks of user defined parameters - reset to sane values to prevent missadventure and issues if possible
+  - Calculate and display slicer bed exclusion settings to prevent placement of parts that would colide with features
 
   - Final QA test RH operation end to end
   - Final QA test LH operation end to end 
