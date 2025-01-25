@@ -30,8 +30,9 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Zero and restore PA before / after purging  **(DONE)**
   - Support chaining of fixed (static) and optional 2.4 gantry mounted nozzle wipe & rest options. Use of one or both options in tandem  **(DONE)**
   - Bucket shaker profile for Yavoth hotend  **(DONE)**
-  - Improve depressor pin avoidance logic (base on HH tip cut location and settings if configured), klicky dock and handling unexpected attached probe **(IN PROGRESS)**
-  - Convert all speeds from mm/min to mm/sec to be consistent with Happy Hare  **(DONE)**
+  - Improve depressor pin avoidance logic (base on HH tip cut location and settings if configured) **(DONE)**
+  - Klicky dock and handling unexpected attached probe **(IN PROGRESS)**
+  - Convert all speeds from mm/min to mm/sec to be consistent with Happy Hare **(DONE)**
   - Consider park position randomiser (+/- 1.5mm) to prolong rest longevity (moggieuk suggestion)
   - Always extend the tray when descending to home or purge **(DONE)**
   - Retract tray and extend after bucket shake in case blobs are accumulating and getting caught underneath **(DONE)**
