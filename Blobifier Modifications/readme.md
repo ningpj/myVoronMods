@@ -31,7 +31,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Support chaining of fixed (static) and optional 2.4 gantry mounted nozzle wipe & rest options. Use of one or both options in tandem  **(DONE)**
   - Bucket shaker profile for Yavoth hotend  **(DONE)**
   - Improve depressor pin avoidance logic (base on HH tip cut location and settings if configured) **(DONE)**
-  - Klicky dock and handling unexpected attached probe **(IN PROGRESS)**
+  - Klicky dock and handling unexpected attached probe **(DONE)** Wrapper macros provided for klicky users BLOBIFIER_SAFE and BLOBIFIER_SAVE_PARK
   - Convert all speeds from mm/min to mm/sec to be consistent with Happy Hare **(DONE)**
   - Consider park position randomiser (+/- 1.5mm) to prolong rest longevity (moggieuk suggestion)
   - Always extend the tray when descending to home or purge **(DONE)**
