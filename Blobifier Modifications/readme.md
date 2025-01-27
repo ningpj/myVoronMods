@@ -39,7 +39,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Switch accels to use max_accels as defined or user provided whichever is the lower as default is to set it well above what most printers can comfortably accomodate without skipping e.g. use shake_accels,printer.configfile.config.printer.max_accel to cap it **(DONE)**
   - Additional sanity checks of user defined parameters - reset to sane values to prevent missadventure and issues if possible
   - Calculate and display slicer bed exclusion settings to prevent placement of parts that would colide with features **(DONE)** // BLOBIFIER: Slicer bed exclusion zone: 265x278, 300x278, 300x310, 265x310
-
+  - Add x safety move if we only have a tray parking option and we are in print1) move out behind shaker and potentially the 2) depressor pin
   - Final QA test RH operation end to end
   - Final QA test LH operation end to end 
 
