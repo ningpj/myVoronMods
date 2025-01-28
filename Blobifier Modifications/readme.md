@@ -6,7 +6,7 @@ This is a dumping ground for sharing Blobifier modifications to support left and
 The gantry Wipe / Rest redesign is derived and based on the excellent work @igannakas (Discord) pioneered to eliminate colour contamination when changing / purging filaments during mmu prints.<br />
 
 
-## `#0969DA Design Goals`
+## Design Goals
 
 - **Gantry & Static Nozzle Wipe Rest**
 
