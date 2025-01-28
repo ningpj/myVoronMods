@@ -16,14 +16,14 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - More material to secure m3 heat sets **(DONE)**
   - A1 Mini silicon wiper block. While easier to secure and replace, its smaller and has shorter, more closely spaced knobs than the original Bambu A1 wiper (zig zag pattern may overcome size limitation) **(DONE - Discarded in preference to chunker, full size Bambu A1 wiper)**
   - Experiment with high temp silicon tubing as nozzle rest with filament pin to secure (Dubro aero/heli silicon fuel tubing - 180c-ish temp) **(DONE - Discarded due to ABS softening after prolonged exposure to 255c+ nozzle temp)** 
-  - Evaluate 250c silicon syringe and button hole plugs from aliexpress as alternatives. Interestingly "most" silicon HE socks are only rated to 280c **(NOT REQUIRED Silicon button is fine with 3mm/4mm ID/OD PTFE tube sleeve)**
+  - Evaluate 250c silicon syringe and button hole plugs from aliexpress as alternatives. Interestingly "most" silicon HE socks are only rated to 280c **(DONE Silicon button plug works well with 3mm/4mm ID/OD PTFE tube sleeve as mount to allow replacement)**
   - Additional options to detach filament klingons / blobs before final wipe (e.g. double silicon rest, angled edge and cutaways on mount, etc)  **(DONE - Discarded in preference to chunker, full size Bambu A1 wiper)**
-  - Redesign and experiment with static wipe rest that extends over Blobifier tray to maximise print area. **(DONE)** 
+  - Redesign and experiment with static wipe / rest extending over Blobifier tray to maximise print area. **(DONE)** Appears to work ok although blobs can stack up behind / between the static wipe / mount and blobifier base.  Still managed to fill the tray.  Changed logic to retract the tray before shaking the bucket to release any blobs trapped until the tray
  
 - **Blobifier**
-  - Ambidextrous move logic to handle left and right hand installation (optimise moves based on install orientation e.g. towards and away from Blobifier)  **(DONE)**
+  - Ambidextrous motion logic to handle left and right hand installation (optimise moves based on install orientation e.g. towards and away from Blobifier)  **(DONE)**
   - Incorporate additional maximum print area bounds checking where it makes sense 
-  - Implement Zig zag wiper motion to improve wipe efficacy  **(DONE)** - Maybe consider 3rd combo zig zag & swipe option (40/60 rounded ratio so 3 = 1 zigzag, 2 wipes, 4 = 2 zigzags, 2 wipes)
+  - Implement Zig zag wiper motion to improve wipe efficacy  **(DONE)** - Maybe consider combo zig zag & swipe wiping action option 3 (e.g. 40/60 rounded ratio so 3 = 1 zigzag, 2 wipes, 4 = 2 zigzags, 2 wipes)
   - Customisable nozzle shake option to help detach belligerent blobs (default: off)  **(DONE)**
   - Customizable tray iterations to help detach belligerent blobs (default: 1)  **(DONE)**
   - Move servo dwell setting to main Blobifier configuration block  **(DONE)**
