@@ -41,7 +41,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - [x] Add wrapper macros & logic to check if Klicky is still attached to prevent collisions with optional gantry mount - prompt users to manually remove.  (BLOBIFIER_SAFE and BLOBIFIER_SAFE_PARK macro entry points provided for klicky users)
   - [x] Convert all blobifier speeds from mm/min to mm/sec to be consistent with Happy Hare
   - [ ] Consider park position randomiser (+/- 1.5mm) to prolong silicon rest longevity (moggieuk suggestion).
-        Given the likelihood of temp related dimples, it will be more effective to park in the same place to cap the nozzle.  
+        Given the likelihood of high temp related dimples, its likely  more effective to park up in the same spot better cap the nozzle.  
   - [x] Always extend the tray before descending to park or purge to reduce the risk of damaging the nozzle
   - [x] Retract the tray before shaking the bucket in case blobs are accumulating and getting caught underneath it
   - [x] Cap / alert when user accels (wipe and travel) are higher than printer limits e.g. printer.configfile.config.printer.max_accel
@@ -65,13 +65,13 @@ Current design iteration for the 2.4 gantry mounted nozzle wipe rest. Silicon 25
 ![Adjustable PTFE silicon rest sleeve](https://github.com/user-attachments/assets/846e4019-8405-4fc8-b69d-15c47b051b73)
 
 
-**Wear and Tear** This is after > 1500 changes and parking the nozzle up @ 290c for 45mins.  The the over temp dimple helps cap the nozzle but expect the silicon rest to deterorate further over time especially if the nozzle is left in a parked state at high temp for prolonged periods of time. No noticable wear and tear parking up while preheating or during printing and filament changes with default Happy Hare 5-minute HE timeout and 255c target temp.  As the silicon rest is only rated @ 250c and easily replacable it should be considered "consumable" and replaced as often as needed when its no longer able to restrict oozing.  Even though external nozzle temp measurements appeared to be 40-50c lower than target HE temps, if left sitting on the rest for prelonged periods (e.g. > 10mins), tip temp will gradually creep up, reducing the temp delta. 
+**Wear and Tear** This is after > 1500 changes and parking the nozzle up @ 290c for 45mins.  The over temp dimple helps cap the nozzle but expect the silicon rest to deterorate further over time especially if the nozzle is left in a parked state at high temp for prolonged periods of time. No noticable wear and tear parking up while preheating or during printing and filament changes with default Happy Hare 5-minute HE timeout and 255c target temp.  As the silicon rest is only rated @ 250c and easily replacable, it should be considered "consumable" and replaced as often as needed when its no longer able to restrict oozing.  Even though external nozzle temp measurements appeared to be 40-50c lower than target HE temps, if left sitting on the rest for prelonged periods (e.g. > 10mins), tip temp will gradually creep up, reducing the temp delta. 
 
-Unless a higher temp option can be sourced from aliexpress this is likely the best option.  
+Unless a higher temp option can be sourced from aliexpress, this is one of the best options Ive identified.  
 ![Silicon_Rest_Wear_ _Tear](https://github.com/user-attachments/assets/7495ade9-21d4-4504-9ef5-4139c742a4bd)
 
 
-**Video of right hand blob action with cascading wipe (combo zigzag & straight motion - Option:2) from static wiper, to gantry wiper and final park up**
+**Video of right hand blob action with nozzle shake, cascading wipe (combo zigzag & straight motion - Option:2) from static wiper through to gantry wiper and final park up**
 
 https://github.com/user-attachments/assets/15b4801e-78ad-42de-9327-dc3350addd9f
 
