@@ -54,11 +54,18 @@ Current design iteration for the 2.4 gantry mounted nozzle wipe rest. Silicon 25
 ![250c_silicon_rest_A1_wiper](https://github.com/user-attachments/assets/c2528bf4-50ae-4b6f-8aa7-e38035895a0c)
 ![250c_silicon_rest_A1_wiper_Nozzle_Front](https://github.com/user-attachments/assets/04890cd5-dc0d-408a-bb15-0fdd417d6a0a)
 ![Adjustable PTFE silicon rest sleeve](https://github.com/user-attachments/assets/846e4019-8405-4fc8-b69d-15c47b051b73)
-**Video of RH Blob with cascading wipe (combo zigzag & straight motion) on static and gantry wipers & final park** 
+
+**Wear and Tear** This is after > 1500 changes and parking the nozzle up @ 290c for 45mins.  The the over temp dimple helps cap the nozzle but expect the silicon rest to deterorate further over time especially if the nozzle is left in a parked state for prolonged periods of time. No noticable wear and tear parking up while preheating or during printing and filament changes with default Happy Hare 5-minute HE timeout and 255c target temp.  As the silicon rest is only rated @ 250c and easily replacable it should be considered "consumable" and replaced as often as needed when its no longer able to restrict oozing.  Even though external nozzle temp measurements appeared to be 40-50c lower than target HE temps, if left sitting on the rest for prelonged periods (e.g. > 10mins), tip temp will gradually creep up, reducing the temp delta. 
+
+Unless a higher temp option can be sourced from aliexpress this is likely the best option we have.  
+![Silicon_Rest_Wear_ _Tear](https://github.com/user-attachments/assets/7495ade9-21d4-4504-9ef5-4139c742a4bd)
+
+**Video of RH blob with cascading wipe (combo zigzag & straight motion - Option:2) from static to gantry with final park**
+
 https://github.com/user-attachments/assets/15b4801e-78ad-42de-9327-dc3350addd9f
 
 
-**Older silicon tube based rests**
+**Older silicon tube based designs**
 
 ![v2.4_Gantry_Wipe_Rest_MK_II](images/v2.4_Gantry_Wipe_Rest_MK_II.png)
 ![v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest](images/v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest.png)
@@ -68,17 +75,17 @@ https://github.com/user-attachments/assets/15b4801e-78ad-42de-9327-dc3350addd9f
 
 ![Yavoth_Shaker_Arm](images/Yavoth_Shaker_Arm.png)
 
-## Voron v2.4 300mm Dimensions
+## Voron v2.4 300mm Reference Dimensions
 
-Example dimensions of blobifier with depressor pins for left hand and right hand installs.
+Reference dimensions of blobifier with depressor pins for left hand and right hand installs on a 300mm Voron 2.4.
 ![Voron_v2 4_300mm_Blobifier_Dimensions](https://github.com/user-attachments/assets/e85cabfd-395c-45b3-a0d2-2c027607976d)
 
 
 ## Current Printer setup
-Voron 2.4 300mm. Klicky PCB dock on the extreme left, z-endstop, blobifier gantry nozzle wipe rest (needs to be move closer to Blobifier once design/modifications are finalised), Blobifier on right, EREC (no toolhead cutter or depressor pin), and Yavoth hotend.
+Voron 2.4 300mm. Klicky PCB dock on the extreme left, z-endstop, blobifier gantry nozzle wipe rest (needs to be move closer to Blobifier once design/modifications are finalised), Blobifier on right, EREC (no toolhead cutter or depressor pin), and Yavoth hotend. Blobifier tray 1.2mm above bed.
 
 ## Nozzle Tip Temperature Metrics
-Measurements for external nozzle tip temperatures taken from 300c - 240c, started at 300c and dropping to lower temps.  Measured with multimeter and thermocouple between silicon reset and nozzle tip. <br />
+Measurements for external nozzle tip temperatures taken from 300c - 240c, started at 300c, waiting for 5mins and dropping to lower temps.  Measured with multimeter and thermocouple between silicon reset and nozzle tip. <br />
 External nozzle tip temperatures consistently 40c or so below actual HE temperature target.
 
 ![Nozzle_Tip_Temperatures](images/Nozzle_Tip_Temperatures.png)
