@@ -2,13 +2,13 @@
 
 ## Description
 
-This is a work in progress and dumping ground for sharing Blobifier modifications to support left and right hand Voron v2.4 installation and prototypes of silicon gantry and fixed nozzle wipe / rest options. 
-The gantry Wipe / Rest redesign is derived and based on the excellent work @igannakas (Discord) has pioneered to eliminate colour contamination when changing / purging filaments during mmu prints.<br />
+This is a dumping ground for sharing Blobifier modifications to support left and right hand Voron v2.4 installation and prototypes of silicon gantry and fixed nozzle wipe / rest options. 
+The gantry Wipe / Rest redesign is derived and based on the excellent work @igannakas (Discord) pioneered to eliminate colour contamination when changing / purging filaments during mmu prints.<br />
 
 
-## Design Goals
+## `#0969DA` Design Goals
 
-- **Gantry & Static Nozzle Wipe Rest**.
+- **Gantry & Static Nozzle Wipe Rest**
 
   Redesign to incorporate:
   - Dovetail sliders to make it easier to adjust, reduce mounting hardware and improve rigidity **(DONE)**
@@ -44,7 +44,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - Final QA test LH operation end to end 
 
 - Silicon nozzle rest options (250c rated) 
-  - 3.5mm button plug : https://www.aliexpress.com/item/1005006396026960.html?spm=a2g0o.order_list.order_list_main.89.320f1802CbTUYu
+  - 3.5mm button plug : https://www.aliexpress.com/item/1005006396026960.html?spm=a2g0o.order_list.order_list_main.89.320f1802CbTUYu **(RECOMMENDED OPTION)**
   - Syringe cap : https://www.aliexpress.com/item/1005006915852959.html?spm=a2g0o.order_list.order_list_main.83.320f1802CbTUYu
 
 ## MK II Gantry Nozzle Wipe Rest
@@ -55,12 +55,14 @@ Current design iteration for the 2.4 gantry mounted nozzle wipe rest. Silicon 25
 ![250c_silicon_rest_A1_wiper_Nozzle_Front](https://github.com/user-attachments/assets/04890cd5-dc0d-408a-bb15-0fdd417d6a0a)
 ![Adjustable PTFE silicon rest sleeve](https://github.com/user-attachments/assets/846e4019-8405-4fc8-b69d-15c47b051b73)
 
+
 **Wear and Tear** This is after > 1500 changes and parking the nozzle up @ 290c for 45mins.  The the over temp dimple helps cap the nozzle but expect the silicon rest to deterorate further over time especially if the nozzle is left in a parked state for prolonged periods of time. No noticable wear and tear parking up while preheating or during printing and filament changes with default Happy Hare 5-minute HE timeout and 255c target temp.  As the silicon rest is only rated @ 250c and easily replacable it should be considered "consumable" and replaced as often as needed when its no longer able to restrict oozing.  Even though external nozzle temp measurements appeared to be 40-50c lower than target HE temps, if left sitting on the rest for prelonged periods (e.g. > 10mins), tip temp will gradually creep up, reducing the temp delta. 
 
-Unless a higher temp option can be sourced from aliexpress this is likely the best option we have.  
+Unless a higher temp option can be sourced from aliexpress this is likely the best option.  
 ![Silicon_Rest_Wear_ _Tear](https://github.com/user-attachments/assets/7495ade9-21d4-4504-9ef5-4139c742a4bd)
 
-**Video of RH blob with cascading wipe (combo zigzag & straight motion - Option:2) from static to gantry with final park**
+
+**Video of right hand blob action with cascading wipe (combo zigzag & straight motion - Option:2) from static wiper, to gantry wiper and final park up**
 
 https://github.com/user-attachments/assets/15b4801e-78ad-42de-9327-dc3350addd9f
 
