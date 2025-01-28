@@ -3,7 +3,7 @@
 ## Description
 
 This is a dumping ground for sharing Blobifier modifications to support left and right hand Voron v2.4 installation and prototypes of silicon gantry and fixed nozzle wipe / rest options. 
-The gantry Wipe / Rest redesign is derived and based on the excellent work @igannakas (Discord) pioneered to eliminate colour contamination when changing / purging filaments during mmu prints.<br />
+The gantry Wipe / Rest redesign is derived and based on the excellent work @igannakas (Discord) pioneered to eliminate colour contamination when changing / purging filaments during mmu prints (https://www.printables.com/model/882364-adjustable-gantry-mounted-nozzle-seal-parking-and).<br />
 
 
 ## Design Goals
