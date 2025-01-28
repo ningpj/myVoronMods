@@ -49,11 +49,13 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
 
 ## MK II Gantry Nozzle Wipe Rest
 
-Current design iteration for the 2.4 gantry mounted nozzle wipe rest. Testing silicon 250c button rest with 3mm/4mm ID/OD PTFE tube sleeve to make it easy to install and remove, insulate from surounding ABS and to make it height adjustable (min 9mm PTFE). Zeroed out additional silicon tube rest as it doesnt seem as necessary after switching to the beefier and larger Bambu A1 Nozzle Wipe (the A1 Mini is considerably smaller and has tighter block pattern and more likely to trap filament debris).
+Current design iteration for the 2.4 gantry mounted nozzle wipe rest. Silicon 250c button rest with 3mm/4mm ID/OD PTFE tube sleeve to make it easy to install and remove, insulate from surounding ABS and to make it height adjustable (min 7mm PTFE). Zeroed out additional silicon tube rest(s) as they don't seem necessary after switching to the beefier and larger Bambu A1 Nozzle Wipe (the A1 Mini is considerably smaller with tighter block pattern and is more likely to trap filament debris).
 
 ![250c_silicon_rest_A1_wiper](https://github.com/user-attachments/assets/c2528bf4-50ae-4b6f-8aa7-e38035895a0c)
 ![250c_silicon_rest_A1_wiper_Nozzle_Front](https://github.com/user-attachments/assets/04890cd5-dc0d-408a-bb15-0fdd417d6a0a)
 ![Adjustable PTFE silicon rest sleeve](https://github.com/user-attachments/assets/846e4019-8405-4fc8-b69d-15c47b051b73)
+**Video of RH Blob with cascading wipe (combo zigzag & straight motion) on static and gantry wipers & final park** 
+https://github.com/user-attachments/assets/15b4801e-78ad-42de-9327-dc3350addd9f
 
 
 **Older silicon tube based rests**
@@ -70,28 +72,6 @@ Current design iteration for the 2.4 gantry mounted nozzle wipe rest. Testing si
 
 Example dimensions of blobifier with depressor pins for left hand and right hand installs.
 ![Voron_v2 4_300mm_Blobifier_Dimensions](https://github.com/user-attachments/assets/e85cabfd-395c-45b3-a0d2-2c027607976d)
-
-
-## Videos
-
-Unload, EREC cut, load and blob purge end to end process. Optimized moves to take the shortest path as the print head transitions from fixed / static nozzle wipe rest to the gantry.
-Zigzag wipe & straight patterns (using same wipe speed and accels for both - might reduce zigzag speed to 60% of normal rather than creating yet-another-parameter).
-
-Testing 250c silicon rest (Ali express) and larger A1 wiper on Gantry
-
-
-https://github.com/user-attachments/assets/c10b051a-3b67-4b0f-b9cd-7aeb3ea870b0
-
-
-Earlier macro hack / prototype.
-
-https://github.com/user-attachments/assets/5ee64c5e-efcd-444d-8302-d71aebe47601
-
-
-## Earlier Gantry Nozzle Wipe Rest Iterations
-
-![v2.4_Gantry_Wipe_Rest_MK_I](images/v2.4_Gantry_Wipe_Rest_MK_I.png)
-![v2.4_Gantry_Wipe_Rest_MK_I_Parked](images/v2.4_Gantry_Wipe_Rest_MK_I_Parked.png)
 
 
 ## Current Printer setup
