@@ -11,40 +11,49 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
 - **Gantry & Static Nozzle Wipe Rest**
 
   Redesign to incorporate:
-  - [X] Dovetail sliders to make it easier to adjust, reduce mounting hardware and improve rigidity **(DONE)**
-  - [ ] Internal mount and arm voids to improve rigidity - 0.1mm 2x voids (flex is inherent in designs like this and need it as rigid as possible to cap and prevent nozzle ooze) **(DONE)**
-  - [ ] More material to secure m3 heat sets **(DONE)**
-  - [ ]A1 Mini silicon wiper block. While easier to secure and replace, its smaller and has shorter, more closely spaced knobs than the original Bambu A1 wiper (zig zag pattern may overcome size limitation) **(DONE - Discarded in preference to chunker, full size Bambu A1 wiper)**
-  - Experiment with high temp silicon tubing as nozzle rest with filament pin to secure (Dubro aero/heli silicon fuel tubing - 180c-ish temp) **(DONE - Discarded due to ABS softening after prolonged exposure to 255c+ nozzle temp)** 
-  - Evaluate 250c silicon syringe and button hole plugs from aliexpress as alternatives. Interestingly "most" silicon HE socks are only rated to 280c **(DONE Silicon button plug works well with 3mm/4mm ID/OD PTFE tube sleeve as mount to allow replacement)**
-  - Additional options to detach filament klingons / blobs before final wipe (e.g. double silicon rest, angled edge and cutaways on mount, etc)  **(DONE - Discarded in preference to chunker, full size Bambu A1 wiper)**
-  - Redesign and experiment with static wipe / rest extending over Blobifier tray to maximise print area. **(DONE)** Appears to work ok although blobs can stack up behind / between the static wipe / mount and blobifier base.  Still managed to fill the tray.  Changed logic to retract the tray before shaking the bucket to release any blobs trapped until the tray
+  - [x] Dovetail sliders to make it easy to adjust, reduce mounting hardware (2 x SHCS M3 8mm & 2 x M3 Heatsets) and improve rigidity
+  - [x] Internal mount and arm voids to improve rigidity - 0.1mm 2x voids in arm &  mount (flex is inherent in designs like this and need it to be as rigid as possible to cap and prevent ooze)
+  - [x] More material depth to secure m3 heat sets
+  - [x] A1 Mini silicon wiper block Vs A1. While easier to secure and replace, the A1 Mini wiper is smaller and has shorter, more closely spaced knobs than the original Bambu A1 wiper and was more likely to trap filament debris during testing
+        **(Bambu A1 wiper for the win!)**
+  - [x] Experiment with high temp silicon tubing nozzle rests secured with filament pin (Dubro aero/heli silicon fuel tubing - 180c-ish.
+        Tested and discarded due to ABS mount softening after prolonged exposure to 255c+ parked nozzle.  
+  - [x] Evaluate 250c silicon hole plugs and syringe caps from aliexpress as alternatives. Interestingly "most" silicon HE socks are only rated to 280c.
+        Silicon hole plug worked exceptionally well in conjunction with 3mm/4mm ID/OD PTFE tube sleeve for mounting, replacing and adjusting rest height. Silicon syringe caps were larger, and more difficult to install and work around. 
+  - [x] Trial additional options to help detach blobs before final wipe (e.g. double silicon rest, angled edge, cutaways on top of mount, etc).
+        Discarded in preference to chunker, full size Bambu A1 wiper
+  - [x] Redesign and experiment with static wiper/rest extending over Blobifier tray to maximise print area.
+        Works will although blobs will pile up more between the static wiper and blobifier base.  Still managed to fill the tray but did need to increase shake frequency.
+        Also changed Blobifier macro shaker logic to retract the tray before shaking the bucket and extending it afterwards to help release any blobs that maybe trapped under the tray.
+  - [x] Bucket shaker profile for Yavoth hotend
  
 - **Blobifier**
-  - Ambidextrous motion logic to handle left and right hand installation (optimise moves based on install orientation e.g. towards and away from Blobifier)  **(DONE)**
-  - Incorporate additional maximum print area bounds checking where it makes sense 
-  - Implement Zig zag wiper motion to improve wipe efficacy  **(DONE)** - Maybe consider combo zig zag & swipe wiping action option 3 (e.g. 40/60 rounded ratio so 3 = 1 zigzag, 2 wipes, 4 = 2 zigzags, 2 wipes)
-  - Customisable nozzle shake option to help detach belligerent blobs (default: off)  **(DONE)**
-  - Customizable tray iterations to help detach belligerent blobs (default: 1)  **(DONE)**
-  - Move servo dwell setting to main Blobifier configuration block  **(DONE)**
-  - Zero and restore PA before / after purging  **(DONE)**
-  - Support chaining of fixed (static) and optional 2.4 gantry mounted nozzle wipe & rest options. Use of one or both options in tandem  **(DONE)**
-  - Bucket shaker profile for Yavoth hotend  **(DONE)**
-  - Improve depressor pin avoidance logic (base on HH tip cut location and settings if configured) **(DONE)**
-  - Klicky dock and handling unexpected attached probe **(DONE)** Wrapper macros provided for klicky users BLOBIFIER_SAFE and BLOBIFIER_SAFE_PARK
-  - Convert all speeds from mm/min to mm/sec to be consistent with Happy Hare **(DONE)**
-  - Consider park position randomiser (+/- 1.5mm) to prolong rest longevity (moggieuk suggestion)
-  - Always extend the tray when descending to home or purge **(DONE)**
-  - Retract tray and extend after bucket shake in case blobs are accumulating and getting caught underneath **(DONE)**
-  - Switch accels to use max_accels as defined or user provided whichever is the lower as default is to set it well above what most printers can comfortably accomodate without skipping e.g. use shake_accels,printer.configfile.config.printer.max_accel to cap it **(DONE)**
-  - Additional sanity checks of user defined parameters - reset to sane values to prevent missadventure and issues if possible
-  - Calculate and display slicer bed exclusion settings to prevent placement of parts that would colide with features **(DONE)** // BLOBIFIER: Slicer bed exclusion zone: 265x278, 300x278, 300x310, 265x310
-  - Add x safety move if we only have a tray parking option and we are in print1) move out behind shaker and potentially the 2) depressor pin
-  - Final QA test RH operation end to end
-  - Final QA test LH operation end to end 
+  - [x] Ambidextrous motion logic to handle left and right hand installation with moves optimises according to the orientation e.g. towards and away from Blobifier).
+  - [x] Implement additional wiper actions to improve wipe efficacy. 0: swipe, 1: zigzag, 2: combo zigzag. Ratio for combo is 40/60 with a minimum of 1 wipe for each option. e.g. 3 wipes will result in 1 zigzag & 2 swipes, 4 wipes 2 zigzags, 2 swipes. Zigzag wipe speed is capped @ 500mm/s to prevent unnecesary vibration or printer damage.
+  - [x] Customisable nozzle shaker option to help detach belligerent blobs (x distance, iterations to shake)
+  - [x] Customizable tray iterations to help detach belligerent blobs (default: 1) (iterations to retract and extend the tray)
+  - [x] Rationalise static and gantry configuration using lists with independed settings for managing park and wiper geometry
+  - [x] Make servo dwell setting configurable and move up to main Blobifier configuration block
+  - [x] Zero and restore PA before/after purging
+  - [x] Remove redundant variables where possible e.g. restore settings from the printer variables since the value doesnt change once the tempate is rendered 
+  - [x] Support chaining of static and gantry nozzle wipe & rest options. All options are options and will use whatever is available.  Priortise parking on gantry, static, before falling back to tray.
+  - [x] Improve depressor pin avoidance logic for LH & RH setups. Reference HH tip cut location and servo configuration to conditionally avoid if need be. e.g. if defined, no servo, move in board by depressor pin, park, and toolhead_width and up beside depressor if behind toolhead
+  - [x] Add wrapper macros & logic to check if Klicky is still attached to prevent collisions with optional gantry mount - prompt users to manually remove.  (BLOBIFIER_SAFE and BLOBIFIER_SAFE_PARK macro entry points provided for klicky users)
+  - [x] Convert all blobifier speeds from mm/min to mm/sec to be consistent with Happy Hare
+  - [ ] Consider park position randomiser (+/- 1.5mm) to prolong silicon rest longevity (moggieuk suggestion).
+        Given the likelihood of temp related dimples, it will be more effective to park in the same place to cap the nozzle.  
+  - [x] Always extend the tray before descending to park or purge to reduce the risk of damaging the nozzle
+  - [x] Retract the tray before shaking the bucket in case blobs are accumulating and getting caught underneath it
+  - [x] Cap / alert when user accels (wipe and travel) are higher than printer limits e.g. printer.configfile.config.printer.max_accel
+  - [x] Additional sanity checks of user defined parameters - reset to sane values if possible 
+  - [x] Calculate and display slicer bed exclusion setting to paste into your slicer to prevent placement of parts in areas that would collide with configured blobifier features.
+        // BLOBIFIER: Slicer bed exclusion zone: 265x278, 300x278, 300x310, 265x310
+  - [ ] Review x safety move if tray is the only parking option and we are in print. E.g. move out from behind shaker and potentially the depressor pin if configured
+  - [ ] QA test RH operation end to end
+  - [ ] Final QA test LH operation end to end 
 
 - Silicon nozzle rest options (250c rated) 
-  - 3.5mm button plug : https://www.aliexpress.com/item/1005006396026960.html?spm=a2g0o.order_list.order_list_main.89.320f1802CbTUYu **(RECOMMENDED OPTION)**
+  - **3.5mm button plug : https://www.aliexpress.com/item/1005006396026960.html?spm=a2g0o.order_list.order_list_main.89.320f1802CbTUYu (RECOMMENDED OPTION)**
   - Syringe cap : https://www.aliexpress.com/item/1005006915852959.html?spm=a2g0o.order_list.order_list_main.83.320f1802CbTUYu
 
 ## MK II Gantry Nozzle Wipe Rest
