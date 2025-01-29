@@ -76,6 +76,7 @@ Unless a higher temp option can be sourced from aliexpress, this is one of the b
 
 https://github.com/user-attachments/assets/15b4801e-78ad-42de-9327-dc3350addd9f
 
+
 **Slicer excluded bed region**
 
 <img width="647" alt="image" src="https://github.com/user-attachments/assets/43a60c66-ab4b-4a2a-8edf-8a8f69523601" />
