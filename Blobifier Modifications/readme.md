@@ -45,7 +45,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
 |variable_gantry_park | New | Gantry park config - x from left
 |variable_gantry_wiper | New | Gantry wiper config list - x from left, wiper width, wipe pattern, iterations
 |variable_dwell_time | Exposed | User definable servo dwell time
-|variable_nozzle_shaker| New | Nozzle / toolhead shaker to detach blobs -x move distance, iterations
+|variable_nozzle_shaker| New | Nozzle / toolhead shaker to detach blobs -x move distance away form ``purge_x``, iterations
 |variable_tray_iterations | New | Iterations to retract and extend the tray to help detach blobs
 |variable_orientation | New (Internal)|Reflects Blobifier orientation to optimise moves (set based on ``purge_x`` location) - 0 LH, 1 RH
 |variable_macro_auth | New (Internal) | Ephemeral random number to restrict console/user access to certain macros
