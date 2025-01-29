@@ -107,3 +107,21 @@ Measurements for external nozzle tip temperatures taken from 300c - 240c, starte
 External nozzle tip temperatures consistently 40c or so below actual HE temperature target.
 
 ![Nozzle_Tip_Temperatures](images/Nozzle_Tip_Temperatures.png)
+
+## Detailed Change Log
+|**Parameter**|**Status**|**Comment**
+|-|-|-
+|variable_brush_top|Dreprecated|Replaced by variable_static_wiper config list
+|variable_wipe_qty|Dreprecated|Replaced by variable_static_wiper & variable_gantry_wiper config list
+|variable_brush_accel|Renamed|variable_wipe_accel
+|variable_brush_start|Dreprecated|Replaced by variable_static_wiper & variable_gantry_wiper config list
+|variable_brush_width|Dreprecated|Replaced by variable_static_wiper & variable_gantry_wiper config list
+|variable_static_park|New|Static park config - x from left, park height
+|variable_static_wiper|New|Static wiper config - x from left, wiper width, wiper height, wipe pattern, iterations
+|variable_gantry_park|New|Gantry park config - x from left
+|variable_gantry_wiper|New|Gantry wiper config - x from left, wiper width, wipe pattern, iterations
+|variable_dwell_time|Exposed|User definable servo dwell time
+|variable_nozzle_shaker|New|Nozzle / toolhead shaker to detach blobs -x move distance, iterations
+|variable_tray_iterations|New|Iterations to retract and extend the tray to help detach blobs
+|variable_orientation|New (Internal)|Reflects blobifier orientation to optimise moves (set based on purge_x location) - 0 LH, 1 RH
+|variable_macro_auth|New (Internal)|Ephemeral random number to restrict console/user access to certain macros
