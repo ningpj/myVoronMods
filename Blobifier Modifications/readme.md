@@ -32,7 +32,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - [x] Ambidextrous motion logic to handle left and right hand installation with moves optimised according to the orientation e.g. towards and away from Blobifier.
   - [x] Implement additional wiper actions to improve wipe efficacy. 0: swipe, 1: zigzag, 2: combo zigzag. Ratio for combo is 40/60 with a minimum of 1 wipe for each option. e.g. 3 wipes will result in 1 zigzag & 2 swipes, 4 wipes 2 zigzags, 2 swipes. Zigzag wipe speed is capped @ 500mm/s to prevent unnecesary vibration or printer damage.
   - [x] Customisable nozzle shaker option to help detach belligerent blobs (x distance, iterations to shake)
-  - [x] Customizable tray iterations to help detach belligerent blobs (default: 1) (iterations to retract and extend the tray)
+  - [x] Customizable tray iterations to help detach belligerent blobs (default: 1 - iterations to retract and extend the tray)
   - [x] Rationalise static and gantry configuration using lists with independed settings for managing park and wiper geometry
   - [x] Make servo dwell setting configurable and move up to main Blobifier configuration block
   - [x] Zero and restore PA before/after purging
