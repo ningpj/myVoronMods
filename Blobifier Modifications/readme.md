@@ -125,3 +125,7 @@ External nozzle tip temperatures consistently 40c or so below actual HE temperat
 |variable_tray_iterations|New|Iterations to retract and extend the tray to help detach blobs
 |variable_orientation|New (Internal)|Reflects blobifier orientation to optimise moves (set based on purge_x location) - 0 LH, 1 RH
 |variable_macro_auth|New (Internal)|Ephemeral random number to restrict console/user access to certain macros
+
+- Klicky entry macros to check if klicky probe is unexpectedly attached and could collide with Blobifier gantry wiper/rest if defined (BLOBIFIER_PARK_SAFE & BLOBIFIER_SAFE **Rename to BLOBIFIER_PARK_KLICKY & BLOBIFIER_KLICKY**)
+- 
+- 
