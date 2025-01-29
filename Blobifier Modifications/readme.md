@@ -49,6 +49,9 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - [x] Additional sanity checks of user defined parameters - reset to sane values if possible 
   - [x] Calculate and display slicer bed exclusion setting to paste into your slicer to prevent placement of parts in areas that would collide with configured blobifier features.
         // BLOBIFIER: Slicer bed exclusion zone: 265x278, 300x278, 300x310, 265x310
+        
+        <img width="647" alt="image" src="https://github.com/user-attachments/assets/e243e02b-8a72-459d-a3e6-cdb5b937c848" />
+
   - [ ] Review x safety move if tray is the only parking option and we are in print. E.g. move out from behind shaker and potentially the depressor pin if configured
   - [ ] QA test RH operation end to end
   - [ ] Final QA test LH operation end to end 
