@@ -81,8 +81,8 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   When ``user_park_move_macro`` is set to ``'BLOBIFIER_PARK'|'BLOBIFIER_SAFE_PARK', xyz arguments passed from Happy Hare are currently ignored.
 - Update overview section, headings, parameter usage and comments
 
-
-
+<br>
+<br>
   
 ## Silicon nozzle rest options (250c rated) 
   - **3.5mm button plug : https://www.aliexpress.com/item/1005006396026960.html?spm=a2g0o.order_list.order_list_main.89.320f1802CbTUYu (RECOMMENDED OPTION)**
