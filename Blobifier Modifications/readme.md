@@ -26,7 +26,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
         Also changed Blobifier macro shaker logic to retract the tray before shaking the bucket and extending it afterwards to help release any blobs that may have gotten trapped under the tray.
   - [x] Bucket shaker profile for Yavoth hotend
  
-## **Blobifier Too do's**
+## **Blobifier To do's**
   - [ ] Re add validation check for static wiper height - +/- 5mm of tray_top 
   - [ ] QA test RH operation end to end
   - [ ] QA test LH operation end to end 
