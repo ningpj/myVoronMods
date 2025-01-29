@@ -14,7 +14,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   filter: contrast(2);
 }
   Redesign to incorporate:
-  - [x] Dovetail sliders to make it easy to adjust, reduce mounting hardware (2 x SHCS/BHCS M3 8mm & 2 x M3 Heatsets) and improve rigidity
+  - [checked] Dovetail sliders to make it easy to adjust, reduce mounting hardware (2 x SHCS/BHCS M3 8mm & 2 x M3 Heatsets) and improve rigidity
   - [x] Internal mount and arm voids to improve rigidity - 0.1mm 2x voids in arm &  mount (flex is inherent in designs like this and need it to be as rigid as possible to cap and prevent ooze)
   - [x] More material depth to secure m3 heat sets
   - [x] A1 Mini silicon wiper block Vs A1. While easier to secure and replace, the A1 Mini wiper is smaller and has shorter, more closely spaced knobs than the original Bambu A1 wiper and was more likely to trap filament debris during testing
