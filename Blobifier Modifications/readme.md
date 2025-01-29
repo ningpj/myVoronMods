@@ -21,13 +21,13 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
         Silicon hole plug worked exceptionally well in conjunction with 3mm/4mm ID/OD PTFE tube sleeve for mounting, replacing and adjusting rest height. Silicon syringe caps were larger, and more difficult to install and work around. 
   - [x] Trial additional options to help detach blobs before final wipe (e.g. double silicon rest, angled edge, cutaways on top of mount, etc).
         Discarded in preference to chunker, full size Bambu A1 wiper
-  - [x] Redesign and experiment with static wiper/rest extending over Blobifier tray to maximise print area.
-        Works well although blobs will pile up more between the static wiper and blobifier base.  Still managed to fill the tray but did need to increase shake frequency.
-        Also changed Blobifier macro shaker logic to retract the tray before shaking the bucket and extending it afterwards to help release any blobs that maybe trapped under the tray.
+  - [x] Redesign and experiment with static wiper/rest that extends over Blobifier tray to maximise print area.
+        Works well although blobs do tend to pile up more between the static wiper and blobifier base than with the normal static wiper option.  Still managed to fill the tray (400 blobs) but did need to slightly increase shake frequency.
+        Also changed Blobifier macro shaker logic to retract the tray before shaking the bucket and extending it afterwards to help release any blobs that may have gotten trapped under the tray.
   - [x] Bucket shaker profile for Yavoth hotend
  
 ## **Blobifier Too do's**
-  - [ ] re add validation check for static wiper height - +/- 5mm of tray_top 
+  - [ ] Re add validation check for static wiper height - +/- 5mm of tray_top 
   - [ ] QA test RH operation end to end
   - [ ] QA test LH operation end to end 
 
