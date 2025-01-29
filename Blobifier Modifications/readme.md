@@ -42,7 +42,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - [x] Add wrapper macros & logic to check if Klicky is still attached to prevent collisions with optional gantry mount - prompt users to manually remove.  (BLOBIFIER_SAFE and BLOBIFIER_SAFE_PARK macro entry points provided for klicky users)
   - [x] Convert all blobifier speeds from mm/min to mm/sec to be consistent with Happy Hare
   - [ ] Consider park position randomiser (+/- 1.5mm) to prolong silicon rest longevity (moggieuk suggestion).
-        Given the likelihood of high temp related dimples, its likely  more effective to park up in the same spot better cap the nozzle.  
+        Given the likelihood of high temp related dimples, its likely  more effective to park up in the same spot to better cap the nozzle and prevent ooze.  
   - [x] Always extend the tray before descending to park or purge to reduce the risk of damaging the nozzle
   - [x] Retract the tray before shaking the bucket in case blobs are accumulating and getting caught underneath it
   - [x] Cap / alert when user accels (wipe and travel) are higher than printer limits e.g. printer.configfile.config.printer.max_accel
