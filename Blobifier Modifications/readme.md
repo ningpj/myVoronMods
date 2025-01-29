@@ -50,37 +50,37 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
 |variable_orientation | New (Internal)|Reflects Blobifier orientation to optimise moves (set based on ``purge_x`` location) - 0 LH, 1 RH
 |variable_macro_auth | New (Internal) | Ephemeral random number to restrict console/user access to certain macros
 
-- Klicky entry macros to check if Klicky probe is unexpectedly attached prior to moving that could potentially collide with Blobifier gantry wiper/rest if defined. This checks and bypasses blobbing and parking functions and doesn’t try to extract and dock the probe. Marcos are optional and conditionally check if Klicky macros and configuration are defined (``BLOBIFIER_SAFE_PARK`` & ``BLOBIFIER_SAFE``)
-- Refactored parking and blobbing macros to support ambidextrous motion for left and right hand Blobifier configurations.  Macro variable "orientation" is automatically set to 0 (LH) or 1 (RH) based on the ``purge_x`` location. Travel and wipe/parking moves as well as depressor pin avoidance are optimised based on this setting.
+- Klicky entry macros to check if Klicky probe is unexpectedly attached prior to moves that could potentially collide with Blobifier gantry wiper/rest if defined. This checks and bypasses blobbing and parking functions if the probe is attached and doesn’t try to extract and dock the probe. Might call out to pause if mmu_status is in print to manually correct. Macros are optional and conditionally check if Klicky macros and configuration is loaded & defined. (``BLOBIFIER_SAFE_PARK`` & ``BLOBIFIER_SAFE``)
+- Refactored parking and blobbing macros to enable ambidextrous motion for left and right hand Blobifier configurations.  Macro variable "orientation" is automatically set to 0 (LH) or 1 (RH) based on ``purge_x`` location. Travel and wipe/parking moves as well as depressor pin avoidance are optimised based on this setting.
 - Parking motion will always attempt to swipe through the nearest wiper to maximise the cleaning oppertunity when parking.    
-- 3 wiper patterns can be enabled to improve wipe efficacy. ``0:`` normal swipe, ``1:`` zigzag (away from y), ``2:`` combo zigzag/swipe. When combo is selected a 40/60 ratio of zigzag/swipes is applied with a minimum of 1 complete wipe for each option. e.g. wipes: 3 will result in 1 zigzag & 2 swipes, Wipes: 4 2 zigzags, 2 swipes. Zigzag is speed capped @ 500mm/s to reduce vibration or potential printer damage given users can increase accels well above defined upper printer ``max_accel`` limit. Depending on the location of the nozzle rest, an additional 1/2 wipe will be added in some circumstances to end near the designated park or transition point
-- Add simple user definable nozzle shaker option to help detach belligerent blobs after blobbing
+- 3 wiper patterns to improve wipe efficacy. ``0:`` normal swipe, ``1:`` zigzag (away from y), ``2:`` combo zigzag/swipe action. When combo is selected a 40/60 ratio of zigzag/swipe is applied with a minimum of 1 complete wipe for each option. e.g. wipes: 3 will result in 1 zigzag & 2 swipes, Wipes: 4 2 zigzags, 2 swipes. Zigzag is speed capped @ 500mm/s to reduce vibration or potential printer damage given users can increase accels well above the upper printer ``max_accel`` limit. Depending on the location of the nozzle rest, an additional 1/2 wipe will be added in some circumstances to end near the designated park or transition point
+- Add simple user definable nozzle shaker option to help detach belligerent blobs after blobbing and before moving to wiper
 - Add simple user definable option to retract and extend the tray n-times to help detach belligerent blobs (default: 1)
-- Always extend the tray before descending to park / purge to reduce the risk of colliding with it or damaging the nozzle if the nozzle height is set too low
-- Retract the tray before shaking the bucket to disperse blobs in case blobs have accumulated or get caught underneath it
+- Always extend the tray before descending to park / purge to reduce the risk of colliding with it or damaging the nozzle if the tray height is set too low
+- Retract the tray before shaking the bucket to disperse blobs in case they have accumulated or are trapped underneath it
 - Convert all Blobifier speeds from mm/min to mm/sec to be consistent with Happy Hare settings
-- Add conditional depressor pin avoidance logic for LH configurations.  Will move print head inboard if toolhead is in front  of depressor pin and ``form_tip_macro`` is set to ``'_MMU_CUT_TIP'`` and ``gantry_servo_enabled`` is false. Moves a max of 80mm or ``toolhead_x + tc.pin_loc_xy[0] + tc.pin_park_dist`` Y axis ignored and will need to review if/when RH cutter toolheads become available 
+- Add conditional depressor pin avoidance logic for LH configurations.  Will move print head inboard if toolhead is in front of depressor pin and ``form_tip_macro`` is set to ``'_MMU_CUT_TIP'`` and ``gantry_servo_enabled`` is false. Moves a max of 80mm or ``toolhead_x + tc.pin_loc_xy[0] + tc.pin_park_dist`` width. Y axis cutter ignored and will need to review if/when RH cutter toolheads become available 
 - Move servo dwell setting up into Blobifier macro block to make user configurable
 - Wrap blob/purge logic to zero and restore ``Pressure Advance`` setting
-- Removed redundant save and other variable where possible.  Overridden printer speed/accel settings are now restored using jinga printer variables as the values are unchanged from when the macro template was rendered
-- Support chaining of static and gantry nozzle wipe & rest options. All options are options and will use whatever is available.  Prioritise parking on gantry, static, before falling back to tray
-- Add separate option lists for managing the configuration of static and gantry based wipe and nozzle rest options.  Make use conditional according to defined options e.g. rest only, wiper only, wiper/rest combo
-- Add wipe and optimised move logic to chain static -> gantry wipe and park locations  
-- Update safe descent logic checks for RH configurations. Make static wiper/rest avoidance conditional on it being defined
+- Removed redundant save and other variables where possible.  Overridden printer speed/accel settings are now restored using orginal jinga printer variable values as the values are unchanged after the macro is called
+- Support chaining of static and gantry nozzle wipe & rest options. All options are "optional" and will use whatever is available.  Prioritise parking on gantry, static locations before falling back to the tray
+- Add separate config variables (list) for independent management of static and gantry wipe and nozzle rest options.  Make use conditional according to defined features e.g. rest only, wiper only, wiper/rest combo, static, gantry, etc
+- Add wipe and optimised move logic to chain static -> gantry wipe and park locations based on whats configured  
+- Update safe descent logic check for RH configuration. Make static wiper/rest avoidance conditional on it being defined and enabled
 - Add additional configuration validation and overrides
   - ``purge_x`` needs to be within 15mm of min|max printer dimensions depending on orientation
   - cap skew_correction at 1.0mm max to avoid colliding with bed if Blobifier tray_top is < bed height
-  - if shake or wipe user defined accels == 0, override and set to printer max_accel value. Warn if user defined value > max_accels (set to -1 to ignore and use current gcode accels)
-  - validate static and gantry park/wipe settings. Static park and wiper height must be +/- 5mm of tray_top, undefined wipe width, wipe_action == (0,1,2), park_x cant be in middle of wiper, static parking spot on correct side for orientation (LH to right of wiper, RH, to left)
-  - nozzle shaker x <= 10
-  - sensible values entered for toolhead_x & toolhead_y. must be > 25mm
-- Calculate and display slicer bed exclusion on startup for users to paste into their slicer setup to mask print areas could collide with enabled Blobifier feature.
+  - if shake or wipe user defined accels == 0, override and set to printer max_accel value. Warn if user defined value > printer max_accels (set to -1 to ignore and use current gcode accels)
+  - validate static and gantry park/wipe settings. Static park and wiper height must be +/- 5mm of tray_top, undefined wipe width, wipe_action == (0,1,2), park_x cant be in middle of wiper, static parking spot on correct side for orientation (expects parking spot to be to the right of wiper for LH setups and on the left for RH setups)
+  - nozzle shaker x <= 5mm from ``purge_x``
+  - sensible values entered for toolhead_x & toolhead_y dimensions. Both must be > 25mm
+- Calculate and display slicer bed exclusion poloygon on startup for users to paste into their slicer setup to mask print areas that will collide with enabled Blobifier features
   ``// BLOBIFIER: Set you Slicer bed exclusion zone to: 265x278, 300x278, 300x310, 265x310``
-- Update notifications to use ``action_respond_info`` for writing info to the console
-- Use simple ephemeral random number auth challenge to prevent users from interactively running _BLOBIFIER_WIPER & BLOBIFIER_SHAKE_BUCKET macros interactively from the console
+- Update operator notifications to use ``action_respond_info`` for writing info to the console
+- Use simple ephemeral random number auth challenge to prevent users from interactively running _BLOBIFIER_WIPER & BLOBIFIER_SHAKE_BUCKET macros interactively from the console (random number set on startup passed to macro to compare)
 - Refactor parking logic to prioritise parking options based on what’s configured - 1) gantry park, 2) static park else 3) tray.
-  When ``user_park_move_macro`` is set to ``'BLOBIFIER_PARK'|'BLOBIFIER_SAFE_PARK', xyz arguments passed from Happy Hare are currently ignored.
-- Update overview section, headings, parameter usage and comments
+  When ``user_park_move_macro`` is set to ``'BLOBIFIER_PARK'|'BLOBIFIER_SAFE_PARK' in Happy Hare, xyz arguments passed are currently ignored (might need to reconsider this if gantry park not configured.
+- Update overview section, headings, parameter usage and inline comments
 
 <br>
 <br>
