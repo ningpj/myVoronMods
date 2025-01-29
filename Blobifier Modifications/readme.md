@@ -27,7 +27,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - [x] Bucket shaker profile for Yavoth hotend
  
 ## **Blobifier Too do's**
-  - [ ] readd validation check for static wiper height - +/- 5mm of tray_top
+  - [ ] re add validation check for static wiper height - +/- 5mm of tray_top 
   - [ ] QA test RH operation end to end
   - [ ] QA test LH operation end to end 
 
