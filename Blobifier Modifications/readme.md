@@ -76,7 +76,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - sensible values entered for toolhead_x & toolhead_y dimensions. Both must be > 25mm
 - Calculate and display slicer bed exclusion poloygon on startup for users to paste into their slicer setup to mask print areas that will collide with enabled Blobifier features
   ``// BLOBIFIER: Set you Slicer bed exclusion zone to: 265x278, 300x278, 300x310, 265x310``
-- Update operator notifications to use ``action_respond_info`` for writing info to the console
+- Update operator notifications to consistently use ``action_respond_info`` for writing info/progress messages to the console
 - Use simple ephemeral random number auth challenge to prevent users from interactively running _BLOBIFIER_WIPER & BLOBIFIER_SHAKE_BUCKET macros interactively from the console (random number set on startup passed to macro to compare)
 - Refactor parking logic to prioritise parking options based on what’s configured - 1) gantry park, 2) static park else 3) tray.
   When ``user_park_move_macro`` is set to ``'BLOBIFIER_PARK'|'BLOBIFIER_SAFE_PARK' in Happy Hare, xyz arguments passed are currently ignored (might need to reconsider this if gantry park not configured.
