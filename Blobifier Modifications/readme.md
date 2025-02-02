@@ -29,7 +29,8 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
 ## **Blobifier To do's**
   - [x] Re add validation check for static wiper height - +/- 5mm of tray_top
   - [ ] Chack HH sync config and enable sync during blobbing is necessary
-  - [ ] Consider post blobing parking options for toolheads with beacon/carto probes e.g. clear x before y & restore. Try to park up is the goal and only clear x during print  
+  - [ ] Consider post blobing parking options for toolheads with beacon/carto probes e.g. clear x before y & restore. Try to park up is the goal and only clear x during print
+  - [ ] Handle clearance moves if blobifier or static probe is above the bed.  Need to increase slicer exclusion zone (+toolhead_y) as restoring the print position near blobifier will cause a crash. Also need to make sure the shaker is avoided when moving to and restoring from blobifier's last x position
   - [ ] QA test RH operation end to end
   - [ ] QA test LH operation end to end 
 
