@@ -27,7 +27,9 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - [x] Bucket shaker profile for Yavoth hotend
  
 ## **Blobifier To do's**
-  - [ ] Re add validation check for static wiper height - +/- 5mm of tray_top 
+  - [x] Re add validation check for static wiper height - +/- 5mm of tray_top
+  - [ ] Chack HH sync config and enable sync during blobbing is necessary
+  - [ ] Consider post blobing parking options for toolheads with beacon/carto probes e.g. clear x before y & restore. Try to park up is the goal and only clear x during print  
   - [ ] QA test RH operation end to end
   - [ ] QA test LH operation end to end 
 
