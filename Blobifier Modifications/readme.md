@@ -50,6 +50,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
 |variable_static_wiper | New | Static wiper config list - x from left, wiper width, wiper height, wipe pattern, iterations
 |variable_gantry_park | New | Gantry park config - x from left
 |variable_gantry_wiper | New | Gantry wiper config list - x from left, wiper width, wipe pattern, iterations
+|variable_chain_wipers_after_z | New | z travel distance to start chaining wipers when more than one wiper is defined
 |variable_dwell_time | Exposed | User definable servo dwell time
 |variable_nozzle_shaker| New | Nozzle / toolhead shaker to detach blobs -x move distance away form ``purge_x``, iterations
 |variable_tray_iterations | New | Iterations to retract and extend the tray to help detach blobs
