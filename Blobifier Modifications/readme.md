@@ -31,8 +31,9 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - [x] Re add validation check for static wiper height - +/- 5mm of tray_top
   - [x] Check HH sync config and enable sync during blobbing if necessary (HH should remember the state)
   - [x] Selectable chained wiper height option to control when both wipers are used if fitted.  E.g. gantry wiper only until pos.z > 50mm (or other suitable threshold) before both are used (need to print much higher mmu parts to quantify benefits of chained wipers at altitude)
-  - [x] Write info message when heating to minimum blob temp 
-  - [ ] Consider post blobing parking moves for toolheads with beacon/carto probes e.g. clear x before y & restore. Trying to park up is the goal and only clear x during print although we might require HH changes to create post pause exit we can hook into to manouver around obsticales like high blobifier or static wiper setups and restoring to a position near blobifier, the shaker or the rear depressor pin  
+  - [x] Write info message when actually heating/checking to minimum blob temp 
+  - [ ] Consider post blobing parking moves for toolheads with beacon/carto probes and when the restore point is near blobifier to avoid the shaker/depressor pin and crashing the rear of the carriage when bvlobifier above bed by >2mm e.g. clear x before y & restore. 
+Trying to park up and capping the nozzle is the goal and only clearing x/y during print.  Might be best to handle in HH when blobifier == true and print is being resumed  
   - [ ] Handle clearance moves if blobifier or static probe are 1+mm above the bed.  Increase slicer exclusion zone (+toolhead_y as minimum, possibly depressor pin as well) & review moves for all park options to to ensure toolhead doesnt crash into blobifier when restore location is close. Also need to make sure the shaker is avoided when moving to and restoring from blobifier's last x position
   - [ ] QA test RH operation end to end
   - [ ] QA test LH operation end to end 
