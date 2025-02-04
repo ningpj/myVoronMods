@@ -29,8 +29,8 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
  
 ## **Blobifier To do's**
   - [x] Re add validation check for static wiper height - +/- 5mm of tray_top
-  - [x] Check HH sync config and enable sync during blobbing if necessary (HH should remember the state)
-  - [x] Selectable chained wiper height option to control when both wipers are used if fitted.  E.g. gantry wiper only until pos.z > 50mm (or other suitable threshold) before both are used (need to print much higher mmu parts to quantify benefits of chained wipers at altitude)
+  - [x] Check HH sync config and enable sync to assist during blobbing (HH should remember the state, unsure why it disables before passing control to exit macro)
+  - [x] Selectable chained wiper height to control when both wipers are used if fitted.  E.g. gantry wiper only until pos.z > 50mm (or other suitable threshold) before both are used. Working theory is to minimise ooze while restoring z for gantry wiper.  Single swipe through wiper before restoring_z to ascend to gantry
   - [x] Repoint pause on bucket full to mmu_pause
   - [x] Write info message when actually heating/checking to minimum blob temp 
   - [ ] Post blobing parking moves for toolheads with beacon/carto probes and when the restore point is near blobifier to avoid shaker/depressor pin and crashing the rear of the carriage into blobifier when its above bed by >2mm e.g. clear x before y, move forward over bed before restoring pos (``mmu_restore_position``) 
