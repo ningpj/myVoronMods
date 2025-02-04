@@ -141,8 +141,6 @@ External nozzle tip temperatures consistently 40c or so below actual HE temperat
 
 ![Nozzle_Tip_Temperatures](images/Nozzle_Tip_Temperatures.png)
 
-![image](https://github.com/user-attachments/assets/e1a4e454-7fea-4bfd-8626-cb3d50299eb6)
-
 **Older silicon tube based designs**
 
 ![v2.4_Gantry_Wipe_Rest_MK_II](images/v2.4_Gantry_Wipe_Rest_MK_II.png)
