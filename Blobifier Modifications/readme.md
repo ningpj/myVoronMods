@@ -34,7 +34,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - [x] Repoint pause on bucket full to mmu_pause
   - [x] Write info message when actually heating/checking to minimum blob temp 
   - [ ] Post blobing parking moves for toolheads with beacon/carto probes and when the restore point is near blobifier to avoid shaker/depressor pin and crashing the rear of the carriage into blobifier when its above bed by >2mm e.g. clear x before y, move forward over bed before restoring pos (``mmu_restore_position``) 
-Trying to park up and capping the nozzle is the goal and only clearing x/y during print.  Might also need to hook into HH user resume|cancel extensions to handle unparking moves. Current blobifier macros also do not appear to check or clear the full toolhead before descending and restoring printing at low altitudes. Need to increase calcs for slicer exclusion zone to mask wiper, depressor pin and to conditionally allow for full depth of hotend (when blobifier is > 2mm high)    
+Trying to park up and capping the nozzle is the goal and only clearing x/y during print.  Might also need to hook into HH user resume|cancel extensions to handle unparking moves. Current blobifier macros also do not appear to check or clear the full toolhead before descending and restoring printing at low altitudes. Need to revise calcs for slicer exclusion zone to also mask wiper, depressor pin and conditionally allow for the full depth of hotend (when blobifier is > 2mm high) to avoid beacon/carto/klicky probes    
   - [ ] QA test RH operation end to end
   - [ ] QA test LH operation end to end 
 
