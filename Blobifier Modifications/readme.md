@@ -130,6 +130,7 @@ Reference dimensions of blobifier with depressor pins for left hand and right ha
 ## Yavoth Hotend Shaker Arm
 
 ![Yavoth_Shaker_Arm](images/Yavoth_Shaker_Arm.png)
+![v2.4_Extended_Static_Wipe_Rest_Final_Layout](images/v2.4_Extended_Static_Wipe_Rest_Final_Layout.png)
 
 
 ## Current Printer setup
@@ -145,5 +146,5 @@ External nozzle tip temperatures consistently 40c or so below actual HE temperat
 
 ![v2.4_Gantry_Wipe_Rest_MK_II](images/v2.4_Gantry_Wipe_Rest_MK_II.png)
 ![v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest](images/v2.4_Gantry_Wipe_Rest_MK_II_Double_Rest.png)
-![v2.4_Extended_Static_Wipe_Rest_Final_Layout](images/v2.4_Extended_Static_Wipe_Rest_Final_Layout.png)
+
 
