@@ -23,7 +23,7 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
         Discarded in preference to chunker, full size Bambu A1 wiper
   - [x] Redesign and experiment with static wiper/rest that extends over Blobifier tray to maximise print area.
         Works well although blobs do tend to pile up more between the static wiper and blobifier base than with the normal static wiper option.  Still managed to fill the tray (400 blobs) but did need to slightly increase shake frequency.
-        Also changed Blobifier macro shaker logic to retract the tray before shaking the bucket and extending it afterwards to help release any blobs that may have gotten trapped under the tray.
+        Also changed Blobifier macro shaker logic to retract the tray before shaking the bucket and extending it afterwards to help release any blobs that may have been trapped under the tray.
   - [x] Bucket shaker profile for Yavoth hotend
   - [ ] Test minimal Yavoth shaker arm profile needed to shake bucket effectively while lowering collision profile with chamfered leading edge  
  
