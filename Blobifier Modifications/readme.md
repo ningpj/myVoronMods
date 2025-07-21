@@ -39,7 +39,7 @@ Trying to park up and capping the nozzle is the goal and only clearing x/y durin
   - [ ] QA test RH operation end to end
   - [ ] QA test LH operation end to end 
 ## Assumptions / Comments
-- Filametrix depressor with RH Blobifier will always need to be servo activated if fitted due to Klipper homing moves
+- RH Filametrix depressor with RH Blobifier will always need to be servo activated if fitted due to Klipper homing moves (might setup custom homing override to home x & move inboard before Y and Z. Also to lift Z above shaker arm for RH option)
 - If using Klicky with RH Blobifier you will need to make sure a Klicky macro issue is fixed that resets the user defined safe_z variable to a lower value to prevent the toolhead from colliding with the shaker when repeat homing (initial home is fine, subsequent homing wont zhop).  Theres a PR to address - Logic should be dont zhop if below safe_z and homed   
 
 ## Detailed Change Summary
