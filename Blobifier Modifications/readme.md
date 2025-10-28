@@ -133,8 +133,8 @@ https://github.com/user-attachments/assets/15b4801e-78ad-42de-9327-dc3350addd9f
 
 **Slicer excluded bed region**
 
-<img width="647" alt="image" src="https://github.com/user-attachments/assets/43a60c66-ab4b-4a2a-8edf-8a8f69523601" />
-<img width="598" height="416" alt="image" src="https://github.com/user-attachments/assets/d157ed33-94d5-47c1-9762-980c11bb978b" />
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/43a60c66-ab4b-4a2a-8edf-8a8f69523601" />
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/d157ed33-94d5-47c1-9762-980c11bb978b" />
 
 
 ## Voron v2.4 300mm Reference Dimensions
