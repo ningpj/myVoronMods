@@ -22,24 +22,25 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - [x] Trial additional options to help detach blobs before final wipe (e.g. double silicon rest, angled edge, cutaways on top of mount, etc).
         Discarded in preference to chunker, full size Bambu A1 wiper
   - [x] Redesign and experiment with static wiper/rest that extends over Blobifier tray to maximise print area.
-        Works well although blobs do tend to pile up more between the static wiper and blobifier base than with the normal static wiper option.  Still managed to fill the tray (400 blobs) but did need to slightly increase shake frequency.
-        Also changed Blobifier macro shaker logic to retract the tray before shaking the bucket and extending it afterwards to help release any blobs that may have been trapped under the tray.
+        Works well although blobs do tend to pile up more between the wiper arm and blobifier base than with the stock option.  Still managed to fill the tray (400 blobs) but did need to slightly increase shake frequency.
+        Also changed Blobifier macro shaker logic to retract the tray before shaking the tray and extending it afterwards to help release blobs that may have been trapped under the tray.
   - [x] Bucket shaker profile for Yavoth hotend
   - [ ] Test minimal Yavoth shaker arm profile needed to shake bucket effectively while lowering collision profile with chamfered leading edge  
  
 ## **Blobifier To do's**
   - [x] Re add validation check for static wiper height - +/- 5mm of tray_top
-  - [x] Check HH sync config and enable sync to assist during blobbing if configured (HH should remember the state, unsure why it disables before passing control to exit macro)
+  - [x] Check HH sync config and enable sync to assist during blobbing if enabled (HH should remember the state, unsure why it disables before passing control to exit macro)
   - [x] Selectable chained wiper height to control when both wipers are used if fitted.  E.g. gantry wiper only until pos.z > 50mm (or other suitable threshold) before both are used. Working theory is to minimise ooze while restoring z for gantry wiper.  Single swipe through wiper before restoring_z to ascend to gantry
   - [x] Repoint pause on bucket full to mmu_pause
-  - [x] Write info message when actually heating/checking to minimum blob temp 
-  - [ ] Post blobing parking moves for toolheads with beacon/carto probes and when the restore point is near blobifier to avoid shaker/depressor pin and crashing the rear of the carriage into blobifier when its above bed by >2mm e.g. clear x before y, move forward over bed before restoring pos (``mmu_restore_position``) 
-Trying to park up and capping the nozzle is the goal and only clearing x/y during print.  Might also need to hook into HH user resume|cancel extensions to handle unparking moves. Current blobifier macros also do not appear to check or clear the full toolhead before descending and restoring printing at low altitudes. Need to revise calcs for slicer exclusion zone to also mask wiper, depressor pin and conditionally allow for the full depth of hotend (when blobifier is > 2mm high) to avoid beacon/carto/klicky probe junk hanging out the back
-  - [x] Pre-blob prime - add variable to control static prime volume at start before raising z. This helps reduce stringing if toolhead dimensions aren't accurate or nozzle isnt primed
-  - [x] Remove retract length from purge_len calculations as it shouldnt be reported in volumes/lengths and already unretract to match hh expectations
-  - [x] Add mm3 volumes to console messages 
+  - [x] Write info message when heating/checking to minimum blob temp & other message refinements 
+  - [ ] Post blob parking moves for toolheads with beacon/carto probes when restore point is near blobifier to avoid shaker/depressor pin and crashing rear of the carriage into blobifier when its above bed by >2mm e.g. clear x before y, move forward over bed before restoring pos (``mmu_restore_position``) 
+Trying to park up and capping the nozzle is the goal and only clearing x/y during print.  Might also need to hook into HH user resume|cancel extensions to handle unparking moves. Current blobifier macros also do not appear to check or clear the full toolhead before descending and restoring printing at low altitudes. Need to revise calcs for slicer exclusion zone to mask shaker, depressor pin and conditionally allow for the full depth of hotend (when blobifier is > 2mm high) to avoid beacon/carto/klicky probe junk hanging out the back
+  - [x] Pre-blob prime - add variable to control static prime volume at start before raising z. This helps reduce stringing if toolhead dimensions aren't accurate or nozzle isnt fully primed
+  - [x] Omit HH retract length from purge_len calculations as it shouldnt be reported in volumes/lengths. Blobifier already unretracts to match hh expectations so was double purging
+  - [x] Add mm3 volumes to console messages
+  - [x] Refector and complete safety moves for no retractable depressor pins (x & y) 
   - [ ] QA test RH operation end to end
-  - [ ] QA test LH operation end to end
+  - [ ] QA test LH operation end to end 
 ## Assumptions / Comments
 - RH Filametrix depressor with RH Blobifier is unlikely as it will always need to be servo activated if fitted due to Klipper homing moves (might setup custom homing override to home x & move inboard before Y and Z. Also to lift Z above shaker arm for RH option).
 - If using Klicky with RH Blobifier you will need to make sure Klicky macro issue is fixed that resets the user defined safe_z variable to a lower value to prevent the toolhead from colliding with the shaker when repeat homing (initial home is fine, subsequent homing wont zhop).  Theres a PR to address - Logic should be dont zhop if below safe_z and homed   
