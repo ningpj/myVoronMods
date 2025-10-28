@@ -48,11 +48,11 @@ Trying to park up and capping the nozzle is the goal and only clearing x/y durin
 ## Detailed Change Summary
 |**Parameter**|**Status**|**Comment**
 |-|-|-
-|variable_brush_top | Deprecated | Replaced by variable_static_wiper config list
-|variable_wipe_qty | Deprecated | Replaced by variable_static_wiper & variable_gantry_wiper config list
+|variable_brush_top | Deprecated | Replaced by variable_static_wiper config tuple
+|variable_wipe_qty | Deprecated | Replaced by variable_static_wiper & variable_gantry_wiper config tuple
 |variable_brush_accel | Renamed | variable_wipe_accel
-|variable_brush_start | Deprecated | Replaced by variable_static_wiper & variable_gantry_wiper config list
-|variable_brush_width| Deprecated | Replaced by variable_static_wiper & variable_gantry_wiper config list
+|variable_brush_start | Deprecated | Replaced by variable_static_wiper & variable_gantry_wiper config tuple
+|variable_brush_width| Deprecated | Replaced by variable_static_wiper & variable_gantry_wiper config tuple
 |variable_static_park | New | Static park config - x from left, park height
 |variable_static_wiper | New | Static wiper config list - x from left, wiper width, wiper height, wipe pattern, iterations
 |variable_gantry_park | New | Gantry park config - x from left
