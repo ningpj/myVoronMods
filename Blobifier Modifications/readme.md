@@ -36,8 +36,9 @@ The gantry Wipe / Rest redesign is derived and based on the excellent work @igan
   - [ ] Post blob parking moves for toolheads with beacon/carto probes when restore point is near blobifier to avoid shaker/depressor pin and crashing rear of the carriage into blobifier when its above bed by >2mm e.g. clear x before y, move forward over bed before restoring pos (``mmu_restore_position``) 
 Trying to park up and capping the nozzle is the goal and only clearing x/y during print.  Might also need to hook into HH user resume|cancel extensions to handle unparking moves. Current blobifier macros also do not appear to check or clear the full toolhead before descending and restoring printing at low altitudes. Need to revise calcs for slicer exclusion zone to mask shaker, depressor pin and conditionally allow for the full depth of hotend (when blobifier is > 2mm high) to avoid beacon/carto/klicky probe junk hanging out the back
   - [x] Pre-blob prime - add variable to control static prime volume at start before raising z. This helps reduce stringing if toolhead dimensions aren't accurate or nozzle isnt fully primed
-  - [x] Omit HH retract length from purge_len calculations as it shouldnt be reported in volumes/lengths. Blobifier already unretracts to match hh expectations so was double purging
-  - [x] Add mm3 volumes to console messages
+  - [x] Omit HH retract length from purge_len calculations as it shouldnt be reported in purge volume/length stats. Blobifier already unretracts to match hh expectations so was double purging
+  - [x] Add mm3 volume calc to console purge messages
+  - [ ] Update slicer exclusion zone to box shaker arm e.g 267x285, 290x285, 290x265, 300x265, 300x300, 267x300 Vs 199x278, 300x278, 300x310, 199x310
   - [ ] Refector and complete safety moves for non retractable depressor pins (x & y) Note - will need to switch to longer crossbow depressor to test as its currently off plate (-3, 275) (if depressor pin >= 0 and non retractable avoid) 
   - [ ] QA test RH operation end to end
   - [ ] QA test LH operation end to end 
