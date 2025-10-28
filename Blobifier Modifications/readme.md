@@ -114,9 +114,10 @@ Current design iteration for the 2.4 gantry mounted nozzle wipe rest. Silicon 25
 
 
 **Wear and Tear** 
-This is after > 1500 changes and parking the nozzle @ 290c for 45mins.  The over temp dimple helps cap the nozzle but expect it will deterorate further especially if left in a parked state at high temp for prolonged periods. No noticable wear and tear parking up while preheating or during printing and filament changes with default Happy Hare 5-minute HE timeout and 255c target temp.  The silicon rest is only rated @ 250c but is easily replaced and cheap as chips so shoudl be considered a "consumable" and replaced as often as needed.  Even though external nozzle temp measurements appeared to be 40-50c lower than target HE temps, if left sitting on the rest for prelonged periods (e.g. > 10mins), tip temp will gradually creep up, reducing temp delta. **Update, Im onto my 3rd rest. The first was tortured and subjected to high temps for prolonged periods.  Getting around 3000-4000 changes per rest in normal use.  
 
-Its less fiddly/fussy than hand making a RTV rest and IMO will "likely" wear better. Unless a higher temp option can be identified from aliexpress, this is the best option I've found so far.  
+This is after > 1500 changes and parking the nozzle @ 290c for 45mins.  The over temp dimple helps cap the nozzle but expect it will deterorate further especially if left in a parked state at high temp for prolonged periods. Nominal wear and tear parking up while preheating or during printing and filament changes with default Happy Hare 5-minute HE timeout and 255c target temp.  The silicon rest is only rated @ 250c but is easily replaced and cheap as chips so should be considered "consumable" and replaced as often as needed.  Even though external nozzle temp measurements appeared to be 40-50c lower than target HE temps, if left sitting on the rest for prelonged periods (e.g. > 10mins), tip temp will gradually creep up, reducing temp delta. **Update, Im onto my 3rd rest. The first was tortured and subjected to high temps for prolonged periods.  Getting around 3000-4000 changes per rest in normal use.  
+
+IMO Its less fiddly/fussy than hand made RTV option and will "likely" wear better. Unless a higher temp option can be identified from aliexpress, this is the best option I've found so far.  
 ![Silicon_Rest_Wear_ _Tear](https://github.com/user-attachments/assets/7495ade9-21d4-4504-9ef5-4139c742a4bd)
 
 
