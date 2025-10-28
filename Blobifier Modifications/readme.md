@@ -38,7 +38,7 @@ Trying to park up and capping the nozzle is the goal and only clearing x/y durin
   - [x] Pre-blob prime - add variable to control static prime volume at start before raising z. This helps reduce stringing if toolhead dimensions aren't accurate or nozzle isnt fully primed
   - [x] Omit HH retract length from purge_len calculations as it shouldnt be reported in purge volume/length stats. Blobifier already unretracts to match hh expectations so was double purging
   - [x] Add mm3 volume calc to console purge messages
-  - [ ] Update slicer exclusion zone to box shaker arm e.g 267x285, 290x285, 290x265, 300x265, 300x300, 267x300 Vs 199x278, 300x278, 300x310, 199x310
+  - [ ] Update slicer exclusion polygon to include shaker arm e.g 267x285, 290x285, 290x265, 300x265, 300x300, 267x300 Vs 199x278, 300x278, 300x310, 199x310
   - [ ] Refector and complete safety moves for non retractable depressor pins (x & y) Note - will need to switch to longer crossbow depressor to test as its currently off plate (-3, 275) (if depressor pin >= 0 and non retractable avoid) 
   - [ ] QA test RH operation end to end
   - [ ] QA test LH operation end to end 
