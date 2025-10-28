@@ -120,7 +120,11 @@ Its less fiddly/fussy than hand making a RTV rest and IMO will "likely" wear bet
 ![Silicon_Rest_Wear_ _Tear](https://github.com/user-attachments/assets/7495ade9-21d4-4504-9ef5-4139c742a4bd)
 
 
-**Video of right hand blob action with nozzle shake, cascading wipe (combo zigzag & straight motion - Option:2) from static wiper through to gantry wiper and final park up**
+**Video of current setup with Crossbow toolhead cutter: right hand blob action with nozzle shake, cascading pass through static wiper (Z < 50mm) up to gantry wiper and final park up**
+
+https://github.com/user-attachments/assets/8daecb47-8008-4f38-89c1-824a97c8b9fe
+
+**Older video of right hand blob action with nozzle shake, cascading wipe (combo zigzag & straight motion - Option:2) through static wiper up to gantry wiper and final park up**
 
 https://github.com/user-attachments/assets/15b4801e-78ad-42de-9327-dc3350addd9f
 
