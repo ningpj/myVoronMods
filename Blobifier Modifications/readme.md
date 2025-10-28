@@ -38,7 +38,7 @@ Trying to park up and capping the nozzle is the goal and only clearing x/y durin
   - [x] Pre-blob prime - add variable to control static prime volume at start before raising z. This helps reduce stringing if toolhead dimensions aren't accurate or nozzle isnt fully primed
   - [x] Omit HH retract length from purge_len calculations as it shouldnt be reported in volumes/lengths. Blobifier already unretracts to match hh expectations so was double purging
   - [x] Add mm3 volumes to console messages
-  - [x] Refector and complete safety moves for no retractable depressor pins (x & y) 
+  - [x] Refector and complete safety moves for non retractable depressor pins (x & y) Note - will need to switch to longer crossbow depressor to test as its currently -3mm x and off the build plate (if depressor pin >= 0 avoid) 
   - [ ] QA test RH operation end to end
   - [ ] QA test LH operation end to end 
 ## Assumptions / Comments
