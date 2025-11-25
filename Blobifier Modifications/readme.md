@@ -150,7 +150,7 @@ Reference dimensions of blobifier with depressor pins for left hand and right ha
 
 
 ## Current Printer setup
-Voron 2.4 300mm. Klicky PCB dock on extreme left, z-endstop, blobifier gantry nozzle wipe rest (needs to be move closer to Blobifier once design/modifications are finalised), Blobifier on right, crossbow cutter on right, and Yavoth hotend. Blobifier tray marginally above bed 0.2mm-ish.
+Voron 2.4 300mm. Klicky PCB dock on extreme left, z-endstop, blobifier gantry nozzle wipe rest (needs to be move closer to Blobifier once design/modifications are finalised), Blobifier on right, crossbow cutter, and Yavoth hotend. Blobifier tray marginally above bed 0.4mm-ish.
 
 ## Nozzle Tip Temperature Metrics
 Measurements for external nozzle tip temperatures taken from 300c - 240c, started at 300c, waiting for 5mins and dropping to lower temps.  Measured with multimeter and thermocouple between silicon reset and nozzle tip. <br />
