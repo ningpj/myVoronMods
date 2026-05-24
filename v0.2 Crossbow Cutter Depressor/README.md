@@ -21,8 +21,8 @@ variable_pin_loc_compressed_xy  : 4.7, 16.5
 ```
 Happy-Hare settings for MK II are the same with lost build space reduced to 7mm x 14mm (`0x0, 0x14, 7x14, 7x0, 0x0`)
 
-[!NOTE]
-New variation of MK I added (MK III) with larger depressor face and clearance on top of mount to allow it to clear the arm to minimise lost build space. Now its the same as MK II - 7mm x 14mm.
+> [!NOTE]
+> New variation of MK I added (MK III) with larger depressor face and clearance on top of mount to allow it to clear the arm to minimise lost build space. Now its the same as MK II - 7mm x 14mm.
 
 <img width="560" height="285" alt="image" src="https://github.com/user-attachments/assets/239462fb-e24c-4d38-ab25-0c6ffd28fcc8" />
 
