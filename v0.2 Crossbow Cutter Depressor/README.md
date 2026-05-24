@@ -6,7 +6,7 @@ CNC Crossbow toolhead filament cutters are awesome. For a bit of fun, I fitted o
 
 I originally planned a servo‑actuated arm, but since the bed magnet already lets the build plate lift when printing edge‑to‑edge parts, losing a few millimetres of front print area isn’t the end of the world IMO.
 
-I’ve created two mounting options that bolt to the front‑left 1515 extrusion. I’m using the MK II mid‑body version to minimise lost build space. It's more height‑sensitive than MK I, so depending on your hotend (I’m using Yavoth), you may need to tweak the height. MK I is more universal, but costs a little more build volume.
+I’ve created several mounting options that bolt to the front‑left 1515 extrusion. I’m using the MK II mid‑body version currently to minimise lost build space. It's more height‑sensitive than MK I, so depending on your hotend (I’m using Yavoth), you may need to tweak the height. MK I is more universal, but costs a little more build volume.
 
 X needs to be at least 4.7 mm so the Crossbow arm doesn’t hit the 1515 extrusion during a cut.
 
