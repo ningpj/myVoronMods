@@ -25,7 +25,8 @@ Happy-Hare settings for MK II are the same with lost build space reduced to 7mm 
 > A new variation of MK I has been added (MK III) with a larger depressor face and clearance on top of mount to minimise lost build space. Now its the same as MK II - 7mm x 14mm.
 
 <img width="560" height="285" alt="image" src="https://github.com/user-attachments/assets/239462fb-e24c-4d38-ab25-0c6ffd28fcc8" />
-<img width="466" height="458" alt="iV0 2 Crossbow Depressor MK III" src="https://github.com/user-attachments/assets/f0ac2c15-5c70-4097-90f3-92412606a75c" />
+<img height="285" alt="V0 2 Crossbow Depressor MK III" src="https://github.com/user-attachments/assets/b8305c89-a3b0-4a97-ae10-c197193d812a" />
+
 
 ## Change Log
 
