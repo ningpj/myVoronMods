@@ -10,7 +10,7 @@ I’ve created several mounting options that bolt to the front‑left 1515 extru
 X needs to be at least 4.7 mm so the Crossbow arm doesn’t hit the 1515 extrusion during a cut.
 
 With MK I you lose roughly 7 mm × 25 mm of usable area; I masked this in my slicer using `0x0, 0x25, 7x25, 7x0, 0x0`.
-MK II and MK III you only lose 7mm x 14mm (`0x0, 0x14, 7x14, 7x0, 0x0`)
+MK II and MK III you only sacrifice 7mm x 14mm of space (`0x0, 0x14, 7x14, 7x0, 0x0`)
 
 Happy‑Hare cutting settings for MK II & MK III:
 ```
